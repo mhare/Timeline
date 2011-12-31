@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1279/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/target
+END
+AirTargetTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1123/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/target/AirTargetTest.as
+END
+MergedTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1279/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/target/MergedTest.as
+END
+FrameBufferTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1120/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/target/FrameBufferTest.as
+END
+TextFieldTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1123/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/target/TextFieldTest.as
+END
+BufferTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1127/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/target/BufferTest.as
+END
+SWFInfoTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1101/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/target/SWFInfoTest.as
+END

@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 72
+*.idea
+*.iml
+.actionScriptProperties
+.flexLibProperties
+.project
+target
+
+END

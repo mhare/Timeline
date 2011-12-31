@@ -1,0 +1,9 @@
+package com.matthewhare.timeline.model.vo
+{
+	public class TimelineFileVO
+	{
+		public function TimelineFileVO()
+		{
+		}
+	}
+}

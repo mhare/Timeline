@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1308/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple
+END
+isDebugEnabled.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1308/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/isDebugEnabled.as
+END
+isFatalEnabled.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1308/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/isFatalEnabled.as
+END
+isWarnEnabled.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1308/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/isWarnEnabled.as
+END
+USE_LINE_NUMBERS.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1298/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/USE_LINE_NUMBERS.as
+END
+aTrace.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1298/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/aTrace.as
+END
+isErrorEnabled.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1308/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/isErrorEnabled.as
+END
+USE_STACKTRACE.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1279/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/USE_STACKTRACE.as
+END
+isInfoEnabled.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1308/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/isInfoEnabled.as
+END
+debug.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1308/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/debug.as
+END
+fatal.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1308/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/fatal.as
+END
+warn.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1308/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/warn.as
+END
+error.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1308/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/error.as
+END
+DIRECT_LOGGER.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1298/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/DIRECT_LOGGER.as
+END
+info.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1308/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/simple/info.as
+END

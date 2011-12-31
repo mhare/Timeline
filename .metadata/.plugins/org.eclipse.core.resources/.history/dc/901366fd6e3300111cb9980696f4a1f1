@@ -1,0 +1,14 @@
+package com.matthewhare.timeline.view.timeline.componants
+{
+	/**
+	 * 
+	 * @author matthewhare
+	 * 
+	 */
+	public class TimelineItem
+	{
+		public function TimelineItem()
+		{
+		}
+	}
+}

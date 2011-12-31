@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1519/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/proxy/impl
+END
+ProxyInfo.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/735/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/proxy/impl/ProxyInfo.as
+END
+AbstractProxyFactory.as
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1517/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/proxy/impl/AbstractProxyFactory.as
+END
+ConstructorProxyFactory.as
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/!svn/ver/1517/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/proxy/impl/ConstructorProxyFactory.as
+END
+ClassProxyInfo.as
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1258/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/proxy/impl/ClassProxyInfo.as
+END
+MemberInfo.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1250/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/proxy/impl/MemberInfo.as
+END
+ClassIntroducer.as
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1258/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/proxy/impl/ClassIntroducer.as
+END
+ProxyFactory.as
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1517/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/proxy/impl/ProxyFactory.as
+END
+AbstractMethodBodyFactory.as
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1356/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/proxy/impl/AbstractMethodBodyFactory.as
+END
+MethodProxyFactory.as
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1519/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/proxy/impl/MethodProxyFactory.as
+END
+AccessorProxyFactory.as
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1517/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/proxy/impl/AccessorProxyFactory.as
+END

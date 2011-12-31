@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/763/trunk/as3-commons-bytecode/src/test/resources/assets/abc
+END
+FCDSubClass.abc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/FCDSubClass.abc
+END
+SimpleClass.as
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/SimpleClass.as
+END
+SubClass.as
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/SubClass.as
+END
+FCDSubClass.abc.il
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/FCDSubClass.abc.il
+END
+ClassWithNoMethodsOrProperties.abc
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/ClassWithNoMethodsOrProperties.abc
+END
+BaseClass.abc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/BaseClass.abc
+END
+Interface.abc
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/Interface.abc
+END
+FullClassDefinition.abc
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/FullClassDefinition.abc
+END
+BaseClass.abc.il
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/BaseClass.abc.il
+END
+ClassWithNoMethodsOrProperties.abc.il
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/ClassWithNoMethodsOrProperties.abc.il
+END
+custom_namespace.as
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/custom_namespace.as
+END
+FullClassDefinition.abc.il
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/FullClassDefinition.abc.il
+END
+ClassThatDoesStuff.abc
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/ClassThatDoesStuff.abc
+END
+ClassThatDoesStuff.abc.il
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/ClassThatDoesStuff.abc.il
+END
+Interface.as
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/Interface.as
+END
+BaseClass.as
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/BaseClass.as
+END
+ClassWithNoMethodsOrProperties.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/ClassWithNoMethodsOrProperties.as
+END
+SubClass.abc
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/SubClass.abc
+END
+SimpleClass.abc
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/SimpleClass.abc
+END
+FullClassDefinition.as
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/FullClassDefinition.as
+END
+SimpleClass.abc.il
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/SimpleClass.abc.il
+END
+custom_namespace.abc
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/custom_namespace.abc
+END
+ClassThatDoesStuff.as
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/ClassThatDoesStuff.as
+END
+custom_namespace.abc.il
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/299/trunk/as3-commons-bytecode/src/test/resources/assets/abc/custom_namespace.abc.il
+END

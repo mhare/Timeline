@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/1025/trunk/as3-commons-serialization
+END
+license.txt
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/181/trunk/as3-commons-serialization/license.txt
+END
+changelog.txt
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/181/trunk/as3-commons-serialization/changelog.txt
+END
+pom.xml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/1025/trunk/as3-commons-serialization/pom.xml
+END

@@ -1,0 +1,9 @@
+package com.matthewhare.timeline.model
+{
+	public class TimelineProxy
+	{
+		public function TimelineProxy()
+		{
+		}
+	}
+}

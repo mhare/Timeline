@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1517/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit
+END
+IMethodBodyBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/1312/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IMethodBodyBuilder.as
+END
+IInterfaceBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IInterfaceBuilder.as
+END
+IAccessorBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IAccessorBuilder.as
+END
+IClassBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/892/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IClassBuilder.as
+END
+ICtorBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/ICtorBuilder.as
+END
+IExceptionInfoBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IExceptionInfoBuilder.as
+END
+IMetadataContainer.as
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/762/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IMetadataContainer.as
+END
+IEmitObject.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IEmitObject.as
+END
+IEmitMember.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IEmitMember.as
+END
+IMetadataBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/762/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IMetadataBuilder.as
+END
+IMethodBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IMethodBuilder.as
+END
+ITypeBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/695/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/ITypeBuilder.as
+END
+IPropertyBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/769/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IPropertyBuilder.as
+END
+IAbcBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IAbcBuilder.as
+END
+IPackageBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/892/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/IPackageBuilder.as
+END
+INamespaceBuilder.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/emit/INamespaceBuilder.as
+END

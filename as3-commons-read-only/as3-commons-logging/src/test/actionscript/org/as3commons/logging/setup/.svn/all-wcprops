@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1445/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup
+END
+FlexSetupTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1125/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/FlexSetupTest.as
+END
+HierarchicalSetupTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1434/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/HierarchicalSetupTest.as
+END
+LogTargetLevelTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1125/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/LogTargetLevelTest.as
+END
+SimpleTargetSetupTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1125/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/SimpleTargetSetupTest.as
+END
+LogSetupTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1404/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/LogSetupTest.as
+END
+MergedSetupTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/!svn/ver/1279/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/MergedSetupTest.as
+END
+ComplexSetupTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1279/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/ComplexSetupTest.as
+END
+LeveledTargetSetupTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/1125/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/LeveledTargetSetupTest.as
+END

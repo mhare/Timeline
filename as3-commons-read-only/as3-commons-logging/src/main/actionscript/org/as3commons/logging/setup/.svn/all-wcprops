@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1453/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup
+END
+LevelTargetSetup.as
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/1125/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/LevelTargetSetup.as
+END
+HierarchicalSetup.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1434/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/HierarchicalSetup.as
+END
+SimpleTargetSetup.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1125/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/SimpleTargetSetup.as
+END
+ILogTarget.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1123/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/ILogTarget.as
+END
+mergeSetups.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1279/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/mergeSetups.as
+END
+MergedSetup.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1309/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/MergedSetup.as
+END
+SimpleRegExpSetup.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1278/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/SimpleRegExpSetup.as
+END
+rule.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1279/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/rule.as
+END
+LogSetupLevel.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1371/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/LogSetupLevel.as
+END
+RegExpSetup.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1279/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/RegExpSetup.as
+END
+WrapperRegExpSetup.as
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1309/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/WrapperRegExpSetup.as
+END

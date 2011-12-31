@@ -1,0 +1,17 @@
+K 10
+svn:ignore
+V 173
+.actionScriptProperties
+.classpath
+.flexLibProperties
+.project
+.settings
+as3commons-reflect.iml
+bin-debug
+log.txt
+result.xml
+target
+pom.xml.releaseBackup
+release.properties
+
+END

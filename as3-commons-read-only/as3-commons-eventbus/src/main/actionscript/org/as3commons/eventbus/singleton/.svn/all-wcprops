@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1452/trunk/as3-commons-eventbus/src/main/actionscript/org/as3commons/eventbus/singleton
+END
+StaticEventBus.as
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1452/trunk/as3-commons-eventbus/src/main/actionscript/org/as3commons/eventbus/singleton/StaticEventBus.as
+END

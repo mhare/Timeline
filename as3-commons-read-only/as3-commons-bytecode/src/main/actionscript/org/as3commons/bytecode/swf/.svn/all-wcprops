@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/1517/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/swf
+END
+SWFFile.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/921/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/swf/SWFFile.as
+END
+ISWFFileIO.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/921/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/swf/ISWFFileIO.as
+END
+SWFWeaverFileIO.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/933/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/swf/SWFWeaverFileIO.as
+END
+AbcClassLoader.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1517/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/swf/AbcClassLoader.as
+END
+ISWFWeaver.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/921/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/swf/ISWFWeaver.as
+END
+SWFFileIO.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/921/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/swf/SWFFileIO.as
+END
+SWFWeaver.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1517/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/swf/SWFWeaver.as
+END

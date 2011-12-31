@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1219/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task
+END
+ITransaction.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/902/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/ITransaction.as
+END
+IResetable.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1024/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/IResetable.as
+END
+TaskFlowControlKind.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1024/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/TaskFlowControlKind.as
+END
+ITransactionable.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/902/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/ITransactionable.as
+END
+ITaskFlowControl.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1053/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/ITaskFlowControl.as
+END
+ITaskBlock.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1028/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/ITaskBlock.as
+END
+IConditionProviderAware.as
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1024/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/IConditionProviderAware.as
+END
+IForBlock.as
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/1028/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/IForBlock.as
+END
+IConditionProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1024/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/IConditionProvider.as
+END
+IIfElseBlock.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1028/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/IIfElseBlock.as
+END
+ITask.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1053/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/ITask.as
+END
+ICountProviderAware.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1024/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/ICountProviderAware.as
+END
+IWhileBlock.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/1028/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/IWhileBlock.as
+END
+ICountProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1024/trunk/as3-commons-async/src/main/actionscript/org/as3commons/async/task/ICountProvider.as
+END

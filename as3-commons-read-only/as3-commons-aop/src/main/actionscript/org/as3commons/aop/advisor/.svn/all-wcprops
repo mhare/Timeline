@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1368/trunk/as3-commons-aop/src/main/actionscript/org/as3commons/aop/advisor
+END
+IAdvisor.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1313/trunk/as3-commons-aop/src/main/actionscript/org/as3commons/aop/advisor/IAdvisor.as
+END
+IPointcutAdvisor.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1313/trunk/as3-commons-aop/src/main/actionscript/org/as3commons/aop/advisor/IPointcutAdvisor.as
+END

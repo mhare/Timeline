@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1522/trunk/as3-commons-async/flex-async/src/main/actionscript/org/as3commons/async/rpc/impl/soap
+END
+WebServiceOperation.as
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/!svn/ver/1219/trunk/as3-commons-async/flex-async/src/main/actionscript/org/as3commons/async/rpc/impl/soap/WebServiceOperation.as
+END
+WebServiceService.as
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/!svn/ver/1522/trunk/as3-commons-async/flex-async/src/main/actionscript/org/as3commons/async/rpc/impl/soap/WebServiceService.as
+END
+AbstractWebServiceOperation.as
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/!svn/ver/1219/trunk/as3-commons-async/flex-async/src/main/actionscript/org/as3commons/async/rpc/impl/soap/AbstractWebServiceOperation.as
+END

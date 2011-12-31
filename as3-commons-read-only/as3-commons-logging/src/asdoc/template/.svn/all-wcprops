@@ -1,0 +1,221 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template
+END
+print.css
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/print.css
+END
+Classes.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/Classes.xslt
+END
+style.css
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/style.css
+END
+fieldSummary.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/fieldSummary.xslt
+END
+processHTML.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/processHTML.xslt
+END
+package-list.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/package-list.xslt
+END
+asdoc-util.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/asdoc-util.xslt
+END
+class-files.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/class-files.xslt
+END
+help.js
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/help.js
+END
+asdoc.js
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/asdoc.js
+END
+ASDoc_Config_Base.xml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/ASDoc_Config_Base.xml
+END
+class-list.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/class-list.xslt
+END
+merge_dita_xml.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/merge_dita_xml.xslt
+END
+PostProcessing.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/PostProcessing.xslt
+END
+package-summary.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/package-summary.xslt
+END
+Overviews_Base.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/Overviews_Base.xml
+END
+index-list.html
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/index-list.html
+END
+package.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/package.xslt
+END
+package-detail.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/package-detail.xslt
+END
+class-parts.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/class-parts.xslt
+END
+title-bar.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/title-bar.html
+END
+effectsSummary.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/effectsSummary.xslt
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/package-frame.html
+END
+methodSummary.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/methodSummary.xslt
+END
+class-summary.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/class-summary.xslt
+END
+eventsGeneratedSummary.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/eventsGeneratedSummary.xslt
+END
+stylesSummary.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/stylesSummary.xslt
+END
+all-classes.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/all-classes.xslt
+END
+AC_OETags.js
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/AC_OETags.js
+END
+ASDoc_terms.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/ASDoc_terms.xml
+END
+override.css
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/override.css
+END
+all-index.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/all-index.xslt
+END
+ClassHeader.xslt
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/ClassHeader.xslt
+END
+cookies.js
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/cookies.js
+END
+index.html
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/index.html
+END
+mxml-tags.html
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/816/trunk/as3-commons-logging/src/asdoc/template/mxml-tags.html
+END

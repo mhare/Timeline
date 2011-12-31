@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1524/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect
+END
+XmlTypeProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1476/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/XmlTypeProvider.as
+END
+MethodInvoker.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1245/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/MethodInvoker.as
+END
+IInvocationHandler.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/245/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/IInvocationHandler.as
+END
+IMember.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/750/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/IMember.as
+END
+AbstractTypeProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/656/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/AbstractTypeProvider.as
+END
+Metadata.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1426/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/Metadata.as
+END
+Parameter.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1423/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/Parameter.as
+END
+Method.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1524/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/Method.as
+END
+INamespaceOwner.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/263/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/INamespaceOwner.as
+END
+Type.as
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/1476/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/Type.as
+END
+MetadataContainer.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1422/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/MetadataContainer.as
+END
+Field.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1085/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/Field.as
+END
+MetadataArgument.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1354/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/MetadataArgument.as
+END
+AccessorAccess.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/297/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/AccessorAccess.as
+END
+Constructor.as
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/1516/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/Constructor.as
+END
+Variable.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1354/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/Variable.as
+END
+JSONTypeProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1516/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/JSONTypeProvider.as
+END
+as3commons_reflect.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/656/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/as3commons_reflect.as
+END
+Constant.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1354/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/Constant.as
+END
+AbstractMember.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1361/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/AbstractMember.as
+END
+IMetadataContainer.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/749/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/IMetadataContainer.as
+END
+MetadataUtils.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/748/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/MetadataUtils.as
+END
+Accessor.as
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1354/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/Accessor.as
+END
+TypeProviderKind.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1523/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/TypeProviderKind.as
+END
+ITypeProvider.as
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/263/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/ITypeProvider.as
+END
+TypeCache.as
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/1396/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/TypeCache.as
+END
+ReflectionUtils.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1403/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/ReflectionUtils.as
+END
+BaseParameter.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1422/trunk/as3-commons-reflect/src/main/actionscript/org/as3commons/reflect/BaseParameter.as
+END

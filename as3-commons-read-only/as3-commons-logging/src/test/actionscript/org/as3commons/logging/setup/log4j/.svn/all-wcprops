@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1445/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/log4j
+END
+Log4JSetupTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1444/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/log4j/Log4JSetupTest.as
+END
+TestClassWithArgument.as
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/!svn/ver/1442/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/log4j/TestClassWithArgument.as
+END
+Log4JPropertiesTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/!svn/ver/1445/trunk/as3-commons-logging/src/test/actionscript/org/as3commons/logging/setup/log4j/Log4JPropertiesTest.as
+END

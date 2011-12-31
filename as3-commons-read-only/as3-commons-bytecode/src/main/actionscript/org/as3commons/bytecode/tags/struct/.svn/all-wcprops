@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/tags/struct
+END
+ShapeWithStyle.as
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/tags/struct/ShapeWithStyle.as
+END
+Matrix.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/tags/struct/Matrix.as
+END
+Symbol.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/tags/struct/Symbol.as
+END
+RecordHeader.as
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/tags/struct/RecordHeader.as
+END
+FillStyle.as
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/tags/struct/FillStyle.as
+END
+FillStyleType.as
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/tags/struct/FillStyleType.as
+END
+RGB.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/tags/struct/RGB.as
+END
+RGBA.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/tags/struct/RGBA.as
+END

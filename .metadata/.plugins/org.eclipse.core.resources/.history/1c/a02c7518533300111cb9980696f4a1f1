@@ -1,0 +1,9 @@
+package com.matthewhare.timeline.model.vo
+{
+	public class TimelineItemVO implements ITimelineItemVO
+	{
+		public function TimelineItemVO()
+		{
+		}
+	}
+}

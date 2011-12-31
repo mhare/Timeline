@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/1224/trunk/as3-commons-logging/src/test/actionscript/flexunit
+END
+IgnoredTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/1224/trunk/as3-commons-logging/src/test/actionscript/flexunit/IgnoredTest.as
+END
+NormalTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/1224/trunk/as3-commons-logging/src/test/actionscript/flexunit/NormalTest.as
+END
+ErrorTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/1224/trunk/as3-commons-logging/src/test/actionscript/flexunit/ErrorTest.as
+END

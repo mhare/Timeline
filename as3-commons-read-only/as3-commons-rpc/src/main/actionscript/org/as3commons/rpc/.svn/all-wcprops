@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/1341/trunk/as3-commons-rpc/src/main/actionscript/org/as3commons/rpc
+END
+ISerializer.as
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1341/trunk/as3-commons-rpc/src/main/actionscript/org/as3commons/rpc/ISerializer.as
+END
+IAuthenticator.as
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1341/trunk/as3-commons-rpc/src/main/actionscript/org/as3commons/rpc/IAuthenticator.as
+END
+AbstractService.as
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1341/trunk/as3-commons-rpc/src/main/actionscript/org/as3commons/rpc/AbstractService.as
+END
+IAsyncOperationResponder.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1341/trunk/as3-commons-rpc/src/main/actionscript/org/as3commons/rpc/IAsyncOperationResponder.as
+END
+IDeserializer.as
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1341/trunk/as3-commons-rpc/src/main/actionscript/org/as3commons/rpc/IDeserializer.as
+END

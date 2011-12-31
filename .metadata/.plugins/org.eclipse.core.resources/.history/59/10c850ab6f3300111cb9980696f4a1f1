@@ -1,0 +1,19 @@
+package com.matthewhare.timeline.model.vo
+{
+	public class TimelineFileVO
+	{
+		public function TimelineFileVO()
+		{
+		}
+		
+		/**
+		 * Gets the saved data as XML
+		 * @return 
+		 * 
+		 */
+		public function get data():XML
+		{
+			
+		}
+	}
+}

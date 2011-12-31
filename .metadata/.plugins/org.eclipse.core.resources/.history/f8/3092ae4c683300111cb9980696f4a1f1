@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:WindowedApplication xmlns:fx="http://ns.adobe.com/mxml/2009" 
+					   xmlns:s="library://ns.adobe.com/flex/spark" 
+					   xmlns:mx="library://ns.adobe.com/flex/mx"
+					   creationComplete="initApplication(event)"
+					   >
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import mx.events.FlexEvent;
+			
+			protected function initApplication(event:FlexEvent):void
+			{
+				trace('hello world');
+			}
+			
+		]]>
+	</fx:Script>
+	<mx:MenuBar labelField="@label" left="0" right="0" top="0">
+		<fx:XMLList>
+			<menuitem label="File">
+				<menuitem label="Load.."/>
+				<menuitem label="Save.." enabled="false"/>
+			</menuitem>
+			<menuitem label="MenuItem B"/>
+			<menuitem label="MenuItem C"/>
+			<menuitem label="MenuItem D">
+				<menuitem label="SubMenuItem D-1" 
+						  type="radio" groupName="one"/>
+				<menuitem label="SubMenuItem D-2" 
+						  type="radio" groupName="one"
+						  selected="true"/>
+				<menuitem label="SubMenuItem D-3" 
+						  type="radio" groupName="one"/>
+			</menuitem>
+		</fx:XMLList>
+	</mx:MenuBar>
+</s:WindowedApplication>

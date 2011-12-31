@@ -1,0 +1,19 @@
+package com.matthewhare.timeline.model
+{
+	public class FileProxy
+	{
+		public function FileProxy()
+		{
+		}
+		
+		static public function loadFile(url:String):void
+		{
+			
+		}
+		
+		static public function saveFile(url:String):void
+		{
+			
+		}
+	}
+}

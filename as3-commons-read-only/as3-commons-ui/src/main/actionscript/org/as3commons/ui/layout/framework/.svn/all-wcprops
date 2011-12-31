@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/!svn/ver/1346/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/layout/framework
+END
+IDisplay.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1065/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/layout/framework/IDisplay.as
+END
+IHLayout.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1065/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/layout/framework/IHLayout.as
+END
+ITable.as
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/1065/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/layout/framework/ITable.as
+END
+IGroupLayout.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1065/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/layout/framework/IGroupLayout.as
+END
+ILayoutItem.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/1346/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/layout/framework/ILayoutItem.as
+END
+ILayout.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1106/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/layout/framework/ILayout.as
+END
+IMultilineLayout.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/1065/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/layout/framework/IMultilineLayout.as
+END
+IDynTable.as
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/1065/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/layout/framework/IDynTable.as
+END
+IVLayout.as
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/1065/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/layout/framework/IVLayout.as
+END

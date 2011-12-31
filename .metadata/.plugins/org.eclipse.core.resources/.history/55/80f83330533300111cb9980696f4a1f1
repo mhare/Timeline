@@ -1,0 +1,16 @@
+package com.matthewhare.timeline.model.vo
+{
+	public class TimelineItemVO implements ITimelineItemVO
+	{
+		
+		public function startDate():Date
+		public function endDate():Date
+		
+		public function name():String
+		public function description():String
+		
+		public function TimelineItemVO()
+		{
+		}
+	}
+}

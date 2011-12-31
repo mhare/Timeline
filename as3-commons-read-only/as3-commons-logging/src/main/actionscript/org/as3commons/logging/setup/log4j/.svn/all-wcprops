@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/1453/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/log4j
+END
+log4j.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1431/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/log4j/log4j.as
+END
+log4jPropertiesToSetup.as
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/!svn/ver/1444/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/log4j/log4jPropertiesToSetup.as
+END
+Log4JStyleSetup.as
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1453/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/setup/log4j/Log4JStyleSetup.as
+END

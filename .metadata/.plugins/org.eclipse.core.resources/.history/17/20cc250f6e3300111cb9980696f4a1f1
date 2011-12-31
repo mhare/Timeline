@@ -1,0 +1,36 @@
+package com.matthewhare.timeline.model
+{
+	/**
+	 * 
+	 * @author matthewhare
+	 * 
+	 */
+	public class FileProxy
+	{
+		public function FileProxy()
+		{
+		}
+		
+		
+		/**
+		 * Loads a file in the given format
+		 * @param url
+		 * 
+		 */
+		static public function loadFile(url:String):void
+		{
+			// t
+		}
+		
+		/**
+		 * Writes the data passed through, to disk, using the url name given
+		 * @param url
+		 * @param data
+		 * 
+		 */
+		static public function saveFile(url:String, data:XML):void
+		{
+			
+		}
+	}
+}

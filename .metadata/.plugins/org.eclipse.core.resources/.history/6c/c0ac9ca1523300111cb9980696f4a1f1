@@ -1,0 +1,16 @@
+package com.matthewhare.timeline.model
+{
+	public class TimelineProxy
+	{
+		
+		private var _timelineStartDate:Date
+		private var _timelineEndDate:Date
+		private var _timelineItems:Date
+		
+		
+		public function TimelineProxy()
+		{
+		}
+		
+	}
+}

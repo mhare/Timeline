@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/1404/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/util/xml
+END
+as3commons-logging.1.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/1303/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/util/xml/as3commons-logging.1.xsd
+END
+xmlNs.as
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/1303/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/util/xml/xmlNs.as
+END
+xmlToSetup.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1303/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/util/xml/xmlToSetup.as
+END
+xmlToTarget.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/1404/trunk/as3-commons-logging/src/main/actionscript/org/as3commons/logging/util/xml/xmlToTarget.as
+END

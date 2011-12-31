@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/!svn/ver/1455/trunk/as3-commons-stageprocessing/src/test/actionscript/org/as3commons/stageprocessing/impl/selector
+END
+ClassNameBasedObjectSelectorTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 155
+/svn/!svn/ver/1455/trunk/as3-commons-stageprocessing/src/test/actionscript/org/as3commons/stageprocessing/impl/selector/ClassNameBasedObjectSelectorTest.as
+END
+AllowAllObjectSelectorTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1455/trunk/as3-commons-stageprocessing/src/test/actionscript/org/as3commons/stageprocessing/impl/selector/AllowAllObjectSelectorTest.as
+END
+ComposedObjectSelectorTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 149
+/svn/!svn/ver/1455/trunk/as3-commons-stageprocessing/src/test/actionscript/org/as3commons/stageprocessing/impl/selector/ComposedObjectSelectorTest.as
+END
+NameBasedObjectSelectorTest.as
+K 25
+svn:wc:ra_dav:version-url
+V 150
+/svn/!svn/ver/1455/trunk/as3-commons-stageprocessing/src/test/actionscript/org/as3commons/stageprocessing/impl/selector/NameBasedObjectSelectorTest.as
+END

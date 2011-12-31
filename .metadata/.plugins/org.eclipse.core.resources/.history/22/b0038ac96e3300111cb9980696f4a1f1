@@ -1,0 +1,9 @@
+package com.matthewhare.timeline.view.timeline.componants
+{
+	public class TimelineItem
+	{
+		public function TimelineItem()
+		{
+		}
+	}
+}

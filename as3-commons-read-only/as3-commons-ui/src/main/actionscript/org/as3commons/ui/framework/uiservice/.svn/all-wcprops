@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/!svn/ver/1346/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/framework/uiservice
+END
+AbstractUIService.as
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1346/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/framework/uiservice/AbstractUIService.as
+END
+AbstractUIAdapter.as
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/!svn/ver/1346/trunk/as3-commons-ui/src/main/actionscript/org/as3commons/ui/framework/uiservice/AbstractUIAdapter.as
+END

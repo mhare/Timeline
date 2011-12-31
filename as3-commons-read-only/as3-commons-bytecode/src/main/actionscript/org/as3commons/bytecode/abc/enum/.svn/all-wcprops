@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/1381/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/abc/enum
+END
+ClassConstant.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/991/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/abc/enum/ClassConstant.as
+END
+BaseEnum.as
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/655/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/abc/enum/BaseEnum.as
+END
+ConstantKind.as
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/!svn/ver/878/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/abc/enum/ConstantKind.as
+END
+MultinameKind.as
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/!svn/ver/385/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/abc/enum/MultinameKind.as
+END
+NamespaceKind.as
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/1266/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/abc/enum/NamespaceKind.as
+END
+TraitKind.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/878/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/abc/enum/TraitKind.as
+END
+BuiltIns.as
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/!svn/ver/1182/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/abc/enum/BuiltIns.as
+END
+Opcode.as
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/1381/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/abc/enum/Opcode.as
+END
+MethodFlag.as
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/878/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/abc/enum/MethodFlag.as
+END
+TraitAttributes.as
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/!svn/ver/878/trunk/as3-commons-bytecode/src/main/actionscript/org/as3commons/bytecode/abc/enum/TraitAttributes.as
+END

@@ -21,12 +21,12 @@ package com.matthewhare.timeline.model
 		 * @param url
 		 * 
 		 */
-		static public function loadFile(file:File):TimelineFileVO
+		public function loadFile(file:File):TimelineFileVO
 		{
 			// return loaded data as FileVO object?
 			// return loaded data as TimelineProxy Object?
 			
-			
+			return new TimelineFileVO;
 		}
 		
 		/**
@@ -36,7 +36,7 @@ package com.matthewhare.timeline.model
 		 * @param data data to be stored in the file
 		 * 
 		 */
-		static public function saveFile(file:File, fileVO:TimelineFileVO):void
+		public function saveFile(file:File, fileVO:TimelineFileVO):void
 		{
 			// 
 		}

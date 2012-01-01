@@ -8,7 +8,21 @@
 	
 	<fx:Script>
 		<![CDATA[
+			import com.matthewhare.timeline.controller.events.TimelineEvent;
+			
 			import mx.controls.Alert;
+			import mx.events.MenuEvent;
+			
+			protected function menubarChangeHandler(event:MenuEvent):void
+			{
+				switch (event.label)
+				{
+					case "Open":
+						this.dispatchEvent(new TimelineEvent(TimelineEvent.FILE_LOAD, null, null));
+						break;
+				}
+			}
+			
 		]]>
 	</fx:Script>
 	
@@ -38,8 +52,9 @@
 	<mx:ApplicationControlBar id="dockedBar" 
 							  dock="true">
 		<mx:MenuBar height="100%" 
+					change="menubarChangeHandler(event)"
 					dataProvider="{menuXML}" 
-					labelField="@label" 
+					labelField="@label"
 					showRoot="true"/>
 		<mx:HBox paddingBottom="5" 
 				 paddingTop="5">

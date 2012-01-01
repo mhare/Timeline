@@ -1,11 +1,11 @@
 package com.matthewhare.timeline.model.vo
 {
-	public class TimelineVO implements ITimelineVO
+	public class TimelineVO implements ITimelineVO, ITimelineVO
 	{
 		
-		private var _timelineStartDate:Date
-		private var _timelineEndDate:Date
-		private var _timelineItems:Array; // vector of timelineItems
+		private var _startDate:Date
+		private var _endDate:Date
+		private var _items:Vector.<TimelineItemVO>; // vector of timelineItems
 		
 		
 		public function TimelineVO()
@@ -22,12 +22,12 @@ package com.matthewhare.timeline.model.vo
 		 */
 		public function set timelineEndDate(value:Date):void
 		{
-			_timelineEndDate = value;
+			_endDate = value;
 		}
 		
 		public function get timelineEndDate():Date
 		{
-			return _timelineEndDate;
+			return _endDate;
 		}
 		
 		/**
@@ -38,12 +38,12 @@ package com.matthewhare.timeline.model.vo
 		 */
 		public function set timelineStartDate(value:Date):void
 		{
-			_timelineStartDate = value;
+			_startDate = value;
 		}
 		
 		public function get timelineStartDate():Date
 		{
-			return _timelineStartDate;
+			return _startDate;
 		}
 
 		/**
@@ -52,12 +52,12 @@ package com.matthewhare.timeline.model.vo
 		[Bindable]
 		public function get timelineItems():Vector.<TimelineItemVO>
 		{
-			return _timelineItems;
+			return _items;
 		}
 
 		public function set timelineItems(value:Vector.<TimelineItemVO>):void
 		{
-			_timelineItems = value;
+			_items = value;
 		}
 		
 		/**

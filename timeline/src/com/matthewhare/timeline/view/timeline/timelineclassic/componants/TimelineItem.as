@@ -1,6 +1,7 @@
 package com.matthewhare.timeline.view.timeline.timelineclassic.componants
 {
 	import com.matthewhare.timeline.model.vo.TimelineItemVO;
+	import com.matthewhare.timeline.model.vo.ITimelineItemVO;
 
 	/**
 	 * Draws a TimelineItem to a Timeline.
@@ -10,7 +11,7 @@ package com.matthewhare.timeline.view.timeline.timelineclassic.componants
 	 */
 	public class TimelineItem
 	{
-		public function TimelineItem(vo:TimelineItemVO)
+		public function TimelineItem(vo:ITimelineItemVO)
 		{
 		}
 	}

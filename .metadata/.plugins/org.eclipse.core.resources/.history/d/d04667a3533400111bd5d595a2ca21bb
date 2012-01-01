@@ -1,0 +1,7 @@
+<swiz:BeanProvider 
+	xmlns:fx="http://ns.adobe.com/mxml/2009" 
+	xmlns:swiz="http://swiz.swizframework.org" xmlns:controller="com.matthewhare.timeline.controller.*">
+	
+	<controller:FileSystemController id="fileSystemController"/>
+	<controller:TimelineController id="timelineController"/>
+</swiz:BeanProvider>

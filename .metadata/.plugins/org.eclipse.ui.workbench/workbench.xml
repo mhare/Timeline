@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="50" version="2.0">
+<workbench progressCount="42" version="2.0">
 <workbenchAdvisor/>
-<window height="1174" width="960" x="285" y="395">
+<window height="1174" width="960" x="0" y="22">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
@@ -14,10 +14,12 @@
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="62" y="22"/>
 <coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="76" y="22"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
-<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="54" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="152" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
+<coolItem id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
@@ -42,67 +44,92 @@
 <part id="10"/>
 <part id="11"/>
 <part id="12"/>
+<part id="13"/>
+<part id="14"/>
+<part id="15"/>
+<part id="16"/>
+<part id="17"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="com.adobe.flexbuilder.ui.StartPage" name="Web Browser" partName="Start Page" title="Start Page" tooltip="Flash Builder Start Page" workbook="DefaultEditorWorkbook">
-<input factoryID="com.adobe.flexbuilder.editors.derived.ui.startpage.StartPageEditorInput" iconpath="platform:/plugin/com.adobe.flexbuilder.ui/icons/fb_app_16.png" style="20" tooltip="Flash Builder Start Page" url="file:/Applications/Adobe Flash Builder 4.5/eclipse/plugins/com.adobe.flexbuilder.ui_4.5.1.313231/welcome/welcome.html?firstLaunch=false&amp;edition=prem&amp;version=451"/>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="TimelineClassic.mxml" partName="TimelineClassic.mxml" path="/projects/timelime/timeline/src/com/matthewhare/timeline/view/timeline/timelineclassic/TimelineClassic.mxml" title="TimelineClassic.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/timeline/TimelineClassic.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/view/timeline/timelineclassic/TimelineClassic.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="MainView.mxml" partName="MainView.mxml" path="/projects/timelime/timeline/src/com/matthewhare/timeline/view/MainView.mxml" title="MainView.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/MainView.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/view/MainView.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineLegend.as" partName="TimelineLegend.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/view/timeline/timelineclassic/componants/TimelineLegend.as" title="TimelineLegend.as" tooltip="timeline/src/com/matthewhare/timeline/view/timeline/timelineclassic/componants/TimelineLegend.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/view/timeline/timelineclassic/componants/TimelineLegend.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="391" selectionTopPixel="0"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="TimelineCanvas.mxml" partName="TimelineCanvas.mxml" path="/projects/timelime/timeline/src/com/matthewhare/timeline/view/timeline/TimelineCanvas.mxml" title="TimelineCanvas.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/TimelineCanvas.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/view/timeline/TimelineCanvas.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="Editor.mxml" partName="Editor.mxml" path="/projects/timelime/timeline/src/com/matthewhare/timeline/view/timeline/editor/Editor.mxml" title="Editor.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/timeline/editor/Editor.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/view/timeline/editor/Editor.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineProxy.as" partName="TimelineProxy.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/model/TimelineProxy.as" title="TimelineProxy.as" tooltip="timeline/src/com/matthewhare/timeline/model/TimelineProxy.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/model/TimelineProxy.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="383" selectionTopPixel="0"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineVO.as" partName="TimelineVO.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/model/vo/TimelineVO.as" title="TimelineVO.as" tooltip="timeline/src/com/matthewhare/timeline/model/vo/TimelineVO.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/model/vo/TimelineVO.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1414" selectionTopPixel="289"/>
 </editor>
 <editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="timeline.mxml" partName="timeline.mxml" path="/projects/timelime/timeline/src/timeline.mxml" title="timeline.mxml" tooltip="timeline/src/timeline.mxml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/timeline.mxml"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FileSystemProxy.as" partName="FileSystemProxy.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/model/FileSystemProxy.as" title="FileSystemProxy.as" tooltip="timeline/src/com/matthewhare/timeline/model/FileSystemProxy.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/model/FileSystemProxy.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="564" selectionTopPixel="0"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FileSystemController.as" partName="FileSystemController.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/controller/FileSystemController.as" title="FileSystemController.as" tooltip="timeline/src/com/matthewhare/timeline/controller/FileSystemController.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/controller/FileSystemController.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="568" selectionTopPixel="0"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineProxy.as" partName="TimelineProxy.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/model/TimelineProxy.as" title="TimelineProxy.as" tooltip="timeline/src/com/matthewhare/timeline/model/TimelineProxy.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/model/TimelineProxy.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="211" selectionTopPixel="0"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineController.as" partName="TimelineController.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/controller/TimelineController.as" title="TimelineController.as" tooltip="timeline/src/com/matthewhare/timeline/controller/TimelineController.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/controller/TimelineController.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="128" selectionTopPixel="0"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineItemVO.as" partName="TimelineItemVO.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/model/vo/TimelineItemVO.as" title="TimelineItemVO.as" tooltip="timeline/src/com/matthewhare/timeline/model/vo/TimelineItemVO.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/model/vo/TimelineItemVO.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="211" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ITimelineItemVO.as" partName="ITimelineItemVO.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/model/vo/ITimelineItemVO.as" title="ITimelineItemVO.as" tooltip="timeline/src/com/matthewhare/timeline/model/vo/ITimelineItemVO.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/model/vo/ITimelineItemVO.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="140" selectionOffset="83" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineVO.as" partName="TimelineVO.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/model/vo/TimelineVO.as" title="TimelineVO.as" tooltip="timeline/src/com/matthewhare/timeline/model/vo/TimelineVO.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/model/vo/TimelineVO.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="91" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ITimelineVO.as" partName="ITimelineVO.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/model/vo/ITimelineVO.as" title="ITimelineVO.as" tooltip="timeline/src/com/matthewhare/timeline/model/vo/ITimelineVO.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/model/vo/ITimelineVO.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="144" selectionTopPixel="0"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ViewMaster.mxml" partName="ViewMaster.mxml" path="/projects/timelime/timeline/src/com/matthewhare/timeline/view/ViewMaster.mxml" title="ViewMaster.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/ViewMaster.mxml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/view/ViewMaster.mxml"/>
-</editor>
-<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ApplicationBar.mxml" partName="ApplicationBar.mxml" path="/projects/timelime/timeline/src/com/matthewhare/timeline/view/application/ApplicationBar.mxml" title="ApplicationBar.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/ui/ApplicationBar.mxml" workbook="DefaultEditorWorkbook">
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ApplicationBar.mxml" partName="ApplicationBar.mxml" path="/projects/timelime/timeline/src/com/matthewhare/timeline/view/application/ApplicationBar.mxml" title="ApplicationBar.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/application/ApplicationBar.mxml" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/view/application/ApplicationBar.mxml"/>
 </editor>
-<editor activePart="true" focus="true" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="TimelineRenderer.mxml" partName="TimelineRenderer.mxml" path="/projects/timelime/timeline/src/com/matthewhare/timeline/view/timeline/TimelineRenderer.mxml" title="TimelineRenderer.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/timeline/TimelineRenderer.mxml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/view/timeline/TimelineRenderer.mxml"/>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineEvent.as" partName="TimelineEvent.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/controller/event/TimelineEvent.as" title="TimelineEvent.as" tooltip="timeline/src/com/matthewhare/timeline/controller/event/TimelineEvent.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/controller/event/TimelineEvent.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="649" selectionTopPixel="135"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineItemRenderer.as" partName="TimelineItemRenderer.as" path="/projects/timelime/timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItemRenderer.as" title="TimelineItemRenderer.as" tooltip="timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItemRenderer.as" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItemRenderer.as"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="235" selectionTopPixel="0"/>
+<editor id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" name="timeline_swiz-app.xml" partName="timeline_swiz-app.xml" path="/projects/timelime/timeline_swiz/src/timeline_swiz-app.xml" title="timeline_swiz-app.xml" tooltip="timeline_swiz/src/timeline_swiz-app.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline_swiz/src/timeline_swiz-app.xml"/>
 </editor>
-<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="TimelineItemTip.mxml" partName="TimelineItemTip.mxml" path="/projects/timelime/timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItemTip.mxml" title="TimelineItemTip.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItemTip.mxml" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItemTip.mxml"/>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="timeline_swiz-app.xml" partName="timeline_swiz-app.xml" path="/projects/timelime/timeline_swiz/src/timeline_swiz-app.xml" title="timeline_swiz-app.xml" tooltip="timeline_swiz/src/timeline_swiz-app.xml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline_swiz/src/timeline_swiz-app.xml"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="2524"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ControllerBeans.mxml" partName="ControllerBeans.mxml" path="/projects/timelime/timeline_swiz/src/com/example/config/ControllerBeans.mxml" title="ControllerBeans.mxml" tooltip="timeline_swiz/src/com/example/config/ControllerBeans.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline_swiz/src/com/example/config/ControllerBeans.mxml"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="timeline_swizSwiz.mxml" partName="timeline_swizSwiz.mxml" path="/projects/timelime/timeline_swiz/src/com/example/config/timeline_swizSwiz.mxml" title="timeline_swizSwiz.mxml" tooltip="timeline_swiz/src/com/example/config/timeline_swizSwiz.mxml" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline_swiz/src/com/example/config/timeline_swizSwiz.mxml"/>
+</editor>
+<editor activePart="true" focus="true" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SwizController.as" partName="SwizController.as" path="/projects/timelime/timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizController.as" title="SwizController.as" tooltip="timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizController.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizController.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="139" selectionTopPixel="0"/>
+</editor>
+<editor id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SwizEvent.as" partName="SwizEvent.as" path="/projects/timelime/timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizEvent.as" title="SwizEvent.as" tooltip="timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizEvent.as" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizEvent.as"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="699" selectionTopPixel="0"/>
 </editor>
 </editors>
 <views>
+<view id="com.elementriver.sourcemate.swiz.beansView" partName="Swiz Beans">
+<viewState/>
+</view>
 <view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
 <expanded>
-<category IMemento.internal.id="Errors (1 item)"/>
+<category IMemento.internal.id="Errors (2 items)"/>
 </expanded>
-<columnWidths org.eclipse.ui.ide.locationField="0" org.eclipse.ui.ide.markerType="0" org.eclipse.ui.ide.pathField="0" org.eclipse.ui.ide.resourceField="0" org.eclipse.ui.ide.severityAndDescriptionField="0"/>
+<columnWidths org.eclipse.ui.ide.locationField="84" org.eclipse.ui.ide.markerType="114" org.eclipse.ui.ide.pathField="144" org.eclipse.ui.ide.resourceField="114" org.eclipse.ui.ide.severityAndDescriptionField="466"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -118,16 +145,17 @@
 <fpeExpanded>
 <fpeElement fpePath="/timeline"/>
 <fpeElement fpePath="/timeline/src"/>
-<fpeElement fpePath="/timeline/src/com/matthewhare/timeline"/>
-<fpeElement fpePath="/timeline/src/com/matthewhare/timeline/model"/>
-<fpeElement fpePath="/timeline/src/com/matthewhare/timeline/model/vo"/>
-<fpeElement fpePath="/timeline/src/com/matthewhare/timeline/view"/>
-<fpeElement fpePath="/timeline/src/com/matthewhare/timeline/view/application"/>
-<fpeElement fpePath="/timeline/src/com/matthewhare/timeline/view/timeline"/>
-<fpeElement fpePath="/timeline/src/com/matthewhare/timeline/view/timeline/componants"/>
+<fpeElement fpePath="/timeline/src/%typeDefaultPackage"/>
+<fpeElement fpePath="/timeline_swiz"/>
+<fpeElement fpePath="/timeline_swiz/src"/>
+<fpeElement fpePath="/timeline_swiz/src/%typeDefaultPackage"/>
+<fpeElement fpePath="/timeline_swiz/src/com"/>
+<fpeElement fpePath="/timeline_swiz/src/com/example/config"/>
+<fpeElement fpePath="/timeline_swiz/src/com/matthewhare/timeline"/>
+<fpeElement fpePath="/timeline_swiz/src/com/matthewhare/timeline/controller/events"/>
 </fpeExpanded>
 <fpeSelection>
-<fpeElement fpePath="/timeline/src/com/matthewhare/timeline/view/timeline/TimelineRenderer.mxml"/>
+<fpeElement fpePath="/timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizController.as"/>
 </fpeSelection>
 <filters>
 <filter element="*.class" isEnabled="false"/>
@@ -151,9 +179,10 @@
 </filters>
 <expanded>
 <element path="/timeline"/>
+<element path="/timeline_swiz"/>
 </expanded>
 <selection>
-<element path="/timeline/src/com/matthewhare/timeline/view/timeline/TimelineRenderer.mxml"/>
+<element path="/timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizController.as"/>
 </selection>
 </viewState>
 </view>
@@ -165,8 +194,11 @@
 <view id="com.adobe.flexbuilder.as.editor.asdocviewer" partName="ASDoc">
 <viewState/>
 </view>
+<view id="com.elementriver.sourcemate.swiz.eventsView" partName="Swiz Events">
+<viewState/>
+</view>
 </views>
-<perspectives activePart="com.adobe.flexbuilder.editors.mxml.MXMLEditor" activePerspective="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development">
+<perspectives activePart="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" activePerspective="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="com.adobe.flexbuilder.mxml.editor.ui.perspectives.DevelopmentPerspectiveFactory" id="com.adobe.flexbuilder.editors.mxml.ui.perspectives.development" label="Flash"/>
 <alwaysOnActionSet id="org.eclipse.mylyn.context.ui.actionSet"/>
@@ -190,9 +222,9 @@
 <alwaysOnActionSet id="com.adobe.flexbuilder.debug.ui.flexDebuggingActionSet"/>
 <alwaysOnActionSet id="com.adobe.flexbuilder.zzz.editors.common.ui.project.publish"/>
 <alwaysOnActionSet id="com.adobe.flexbuilder.exportimport.actionSet1"/>
-<alwaysOnActionSet id="com.adobe.flexbuilder.as.editor.ui.NavigationActions"/>
-<alwaysOnActionSet id="com.adobe.flexbuilder.dcrad.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.dcrad.actionSet"/>
+<alwaysOnActionSet id="com.adobe.flexbuilder.as.editor.ui.NavigationActions"/>
 <show_view_action id="com.adobe.flexbuilder.mxml.editor.AppearanceView"/>
 <show_view_action id="com.adobe.flexbuilder.mxml.editor.components.ComponentsView"/>
 <show_view_action id="com.adobe.flexbuilder.packageexplorer"/>
@@ -233,9 +265,11 @@
 <view id="org.eclipse.ui.views.ProblemView"/>
 <view id="com.adobe.flexbuilder.dcrad.views.DataServicesView"/>
 <view id="com.adobe.flexbuilder.monitors.network.view.NetworkMonitorView"/>
-<view id="com.adobe.flexbuilder.as.editor.asdocviewer"/>
 <view id="org.eclipse.ui.console.ConsoleView"/>
 <view id="org.eclipse.debug.ui.DebugView"/>
+<view id="com.adobe.flexbuilder.as.editor.asdocviewer"/>
+<view id="com.elementriver.sourcemate.swiz.beansView"/>
+<view id="com.elementriver.sourcemate.swiz.eventsView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -268,14 +302,16 @@
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
-<info folder="true" part="bottomLayout" ratio="0.74963397" ratioLeft="512" ratioRight="171" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<info folder="true" part="bottomLayout" ratio="0.7688766" ratioLeft="835" ratioRight="251" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
 <page content="com.adobe.flexbuilder.dcrad.views.DataServicesView" label="Data/Services"/>
 <page content="com.adobe.flexbuilder.monitors.network.view.NetworkMonitorView" label="Network Monitor"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
-<page content="com.adobe.flexbuilder.as.editor.asdocviewer" label="ASDoc"/>
 <page content="org.eclipse.debug.ui.DebugView" label="Debug"/>
+<page content="com.elementriver.sourcemate.swiz.beansView" label="Swiz Beans"/>
+<page content="com.elementriver.sourcemate.swiz.eventsView" label="Swiz Events"/>
+<page content="com.adobe.flexbuilder.as.editor.asdocviewer" label="ASDoc"/>
 <page content="com.adobe.flexbuilder.mxml.editor.design.internal.errors.view.DesignModeProblemsView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
@@ -284,6 +320,8 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
+<part id="7"/>
 </presentation>
 </folder>
 </info>
@@ -303,171 +341,177 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="com.adobe.flexbuilder.editors.derived.ui.startpage.StartPageEditorInput" iconpath="platform:/plugin/com.adobe.flexbuilder.ui/icons/fb_app_16.png" id="com.adobe.flexbuilder.ui.StartPage" style="20" tooltip="Flash Builder Start Page" url="file:/Applications/Adobe Flash Builder 4.5/eclipse/plugins/com.adobe.flexbuilder.ui_4.5.1.313231/welcome/welcome.html?firstLaunch=false&amp;edition=prem&amp;version=451"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/swiz/src/org/swizframework/aop/interceptor/ProxyMethod.as"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/timeline/src/timeline.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.mxml.editor.MXMLCodeEditor" path="/timeline/src/timeline.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/model/FileProxy.as"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/model/TimelineProxy.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/model/vo/TimelineItemVO.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/model/vo/ITimelineItemVO.as"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/model/vo/TimelineVO.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/model/vo/ITimelineVO.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/timeline/src/com/matthewhare/timeline/view/ViewMaster.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/timeline/src/timeline.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/timeline/src/com/matthewhare/timeline/view/ui/ApplicationBar.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/timeline/src/com/matthewhare/timeline/view/timeline/TimelineRenderer.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItem.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItemTip.mxml"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/model/FileSystemProxy.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/model/vo/TimelineFileVO.as"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItemRenderer.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.mxml.editor.MXMLCodeEditor" path="/timeline/src/timeline.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/controller/event/TimelineMessage.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/controller/event/TimelineMessageType.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/controller/FileController.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/controller/TimelinesController.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/controller/FileSystemController.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/timeline/src/com/matthewhare/timeline/view/application/ApplicationBar.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/controller/event/TimelineEvent.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/controller/TimelinesController.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/controller/TimelineController.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/timeline/src/com/matthewhare/timeline/view/application/ApplicationBar.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline/src/com/matthewhare/timeline/controller/FileSystemController.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.xml.ui.internal.tabletree.XMLMultiPageEditorPart" path="/timeline_swiz/src/timeline_swiz-app.xml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/timeline_swiz/src/com/example/config/ControllerBeans.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/timeline_swiz/src/com/example/config/timeline_swizSwiz.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" path="/timeline_swiz/src/timeline_swiz.mxml"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizController.as"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" path="/timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizEvent.as"/>
 </editors>
-<item historyLabel="Start Page" index="0"/>
-<item historyLabel="ProxyMethod.as" index="1">
-<position info="not_deleted" x="0" y="0"/>
+<item historyLabel="TimelineVO.as" index="2">
+<position/>
 </item>
-<item historyLabel="Start Page" index="0"/>
-<item historyLabel="timeline.mxml" index="2">
+<item historyLabel="TimelineVO.as" index="2">
+<position/>
+</item>
+<item historyLabel="TimelineVO.as" index="2">
+<position/>
+</item>
+<item historyLabel="TimelineVO.as" index="2">
+<position/>
+</item>
+<item historyLabel="TimelineVO.as" index="2">
+<position/>
+</item>
+<item historyLabel="TimelineVO.as" index="2">
+<position/>
+</item>
+<item historyLabel="TimelineVO.as" index="2">
+<position/>
+</item>
+<item historyLabel="TimelineVO.as" index="2">
+<position info="not_deleted" x="1414" y="0"/>
+</item>
+<item historyLabel="TimelineProxy.as" index="1">
+<position/>
+</item>
+<item historyLabel="TimelineProxy.as" index="1">
+<position/>
+</item>
+<item historyLabel="TimelineProxy.as" index="1">
+<position/>
+</item>
+<item historyLabel="TimelineProxy.as" index="1">
+<position/>
+</item>
+<item historyLabel="timeline.mxml" index="0">
 <position info="not_deleted" x="0" y="0"/>
 </item>
 <item historyLabel="timeline.mxml" index="3">
-<position info="not_deleted" x="39" y="168"/>
+<position info="not_deleted" x="431" y="0"/>
 </item>
 <item historyLabel="timeline.mxml" index="3">
-<position/>
+<position info="not_deleted" x="414" y="4"/>
 </item>
 <item historyLabel="timeline.mxml" index="3">
+<position info="not_deleted" x="615" y="0"/>
+</item>
+<item historyLabel="TimelineMessage.as" index="4">
 <position/>
 </item>
-<item historyLabel="timeline.mxml" index="3">
-<position info="not_deleted" x="1187" y="0"/>
+<item historyLabel="TimelineMessage.as" index="4">
+<position/>
 </item>
-<item historyLabel="FileProxy.as" index="4">
+<item historyLabel="TimelineMessage.as" index="4">
+<position/>
+</item>
+<item historyLabel="timeline.mxml" index="0">
+<position info="not_deleted" x="615" y="0"/>
+</item>
+<item historyLabel="TimelineMessageType.as" index="5">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TimelineProxy.as" index="5">
-<position info="not_deleted" x="211" y="0"/>
+<item historyLabel="timeline.mxml" index="0">
+<position info="not_deleted" x="615" y="0"/>
 </item>
-<item historyLabel="TimelineItemVO.as" index="6">
+<item historyLabel="TimelineMessage.as" index="4">
+<position info="not_deleted" x="228" y="0"/>
+</item>
+<item historyLabel="timeline.mxml" index="0">
+<position info="not_deleted" x="1373" y="0"/>
+</item>
+<item historyLabel="FileController.as" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ITimelineItemVO.as" index="7">
-<position info="not_deleted" x="83" y="140"/>
-</item>
-<item historyLabel="TimelineItemVO.as" index="6">
-<position info="not_deleted" x="211" y="0"/>
-</item>
-<item historyLabel="TimelineVO.as" index="8">
+<item historyLabel="TimelinesController.as" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="ITimelineVO.as" index="9">
-<position info="not_deleted" x="144" y="0"/>
-</item>
-<item historyLabel="TimelineVO.as" index="8">
-<position info="not_deleted" x="91" y="0"/>
-</item>
-<item historyLabel="ViewMaster.mxml" index="10">
+<item historyLabel="FileController.as" index="6">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="timeline.mxml" index="11">
-<position info="not_deleted" x="644" y="0"/>
+<item historyLabel="FileSystemController.as" index="8">
+<position info="not_deleted" x="474" y="0"/>
 </item>
-<item historyLabel="ApplicationBar.mxml" index="12">
-<position info="not_deleted" x="1540" y="0"/>
+<item historyLabel="ApplicationBar.mxml" index="9">
+<position info="not_deleted" x="1297" y="0"/>
 </item>
-<item historyLabel="timeline.mxml" index="11">
-<position info="not_deleted" x="644" y="0"/>
-</item>
-<item historyLabel="ViewMaster.mxml" index="10">
-<position info="not_deleted" x="436" y="0"/>
-</item>
-<item historyLabel="TimelineRenderer.mxml" index="13">
-<position info="not_deleted" x="335" y="0"/>
-</item>
-<item historyLabel="TimelineItem.as" index="14">
+<item historyLabel="TimelinesController.as" index="7">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TimelineItemTip.mxml" index="15">
-<position info="not_deleted" x="363" y="0"/>
+<item historyLabel="FileSystemController.as" index="8">
+<position info="not_deleted" x="474" y="0"/>
 </item>
-<item historyLabel="FileProxy.as" index="4">
+<item historyLabel="TimelineEvent.as" index="10">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FileProxy.as" index="4">
+<item historyLabel="TimelineEvent.as" index="10">
 <position/>
 </item>
-<item historyLabel="FileProxy.as" index="4">
+<item historyLabel="TimelineEvent.as" index="10">
 <position/>
 </item>
-<item historyLabel="FileProxy.as" index="4">
+<item historyLabel="TimelineEvent.as" index="10">
 <position/>
 </item>
-<item historyLabel="FileProxy.as" index="4">
+<item historyLabel="TimelineEvent.as" index="10">
 <position/>
 </item>
-<item historyLabel="FileProxy.as" index="4">
+<item historyLabel="TimelineEvent.as" index="10">
 <position/>
 </item>
-<item historyLabel="FileProxy.as" index="4">
-<position/>
-</item>
-<item historyLabel="FileProxy.as" index="4">
-<position/>
-</item>
-<item historyLabel="FileProxy.as" index="4">
-<position/>
-</item>
-<item historyLabel="FileProxy.as" index="4">
-<position/>
-</item>
-<item historyLabel="FileSystemProxy.as" index="16">
-<position info="not_deleted" x="138" y="0"/>
-</item>
-<item historyLabel="FileSystemProxy.as" index="16">
-<position/>
-</item>
-<item historyLabel="TimelineItem.as" index="14">
+<item historyLabel="TimelinesController.as" index="11">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TimelineItem.as" index="14">
-<position/>
-</item>
-<item historyLabel="TimelineItem.as" index="14">
-<position/>
-</item>
-<item historyLabel="TimelineItem.as" index="14">
-<position/>
-</item>
-<item historyLabel="FileSystemProxy.as" index="16">
-<position info="not_deleted" x="747" y="0"/>
-</item>
-<item historyLabel="TimelineFileVO.as" index="17">
+<item historyLabel="TimelineController.as" index="12">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TimelineFileVO.as" index="17">
-<position/>
+<item historyLabel="ApplicationBar.mxml" index="13">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TimelineFileVO.as" index="17">
-<position/>
+<item historyLabel="TimelineController.as" index="12">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TimelineFileVO.as" index="17">
-<position/>
+<item historyLabel="FileSystemController.as" index="14">
+<position info="not_deleted" x="568" y="0"/>
 </item>
-<item historyLabel="TimelineFileVO.as" index="17">
-<position info="not_deleted" x="311" y="0"/>
+<item historyLabel="timeline_swiz-app.xml" index="15">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="FileSystemProxy.as" index="16">
-<position info="not_deleted" x="564" y="0"/>
+<item historyLabel="ControllerBeans.mxml" index="16">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TimelineItem.as" index="14">
-<position info="not_deleted" x="109" y="0"/>
+<item historyLabel="timeline_swizSwiz.mxml" index="17">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="TimelineItemRenderer.as" index="18">
-<position info="not_deleted" x="235" y="0"/>
+<item historyLabel="timeline_swiz.mxml" index="18">
+<position info="not_deleted" x="0" y="0"/>
 </item>
-<item active="true" historyLabel="TimelineRenderer.mxml" index="13">
-<position info="not_deleted" x="335" y="0"/>
+<item historyLabel="timeline_swizSwiz.mxml" index="17">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SwizController.as" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="SwizEvent.as" index="20">
+<position info="not_deleted" x="699" y="0"/>
+</item>
+<item active="true" historyLabel="SwizController.as" index="19">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -486,50 +530,50 @@
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineFileVO.as" tooltip="timeline/src/com/matthewhare/timeline/model/vo/TimelineFileVO.as">
-<persistable path="/timeline/src/com/matthewhare/timeline/model/vo/TimelineFileVO.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SwizEvent.as" tooltip="timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizEvent.as">
+<persistable path="/timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizEvent.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="TimelineItemTip.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItemTip.mxml">
-<persistable path="/timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItemTip.mxml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="SwizController.as" tooltip="timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizController.as">
+<persistable path="/timeline_swiz/src/com/matthewhare/timeline/controller/events/SwizController.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineItem.as" tooltip="timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItem.as">
-<persistable path="/timeline/src/com/matthewhare/timeline/view/timeline/componants/TimelineItem.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="timeline_swiz.mxml" tooltip="timeline_swiz/src/timeline_swiz.mxml">
+<persistable path="/timeline_swiz/src/timeline_swiz.mxml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="TimelineRenderer.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/timeline/TimelineRenderer.mxml">
-<persistable path="/timeline/src/com/matthewhare/timeline/view/timeline/TimelineRenderer.mxml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="timeline_swizSwiz.mxml" tooltip="timeline_swiz/src/com/example/config/timeline_swizSwiz.mxml">
+<persistable path="/timeline_swiz/src/com/example/config/timeline_swizSwiz.mxml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ApplicationBar.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/ui/ApplicationBar.mxml">
-<persistable path="/timeline/src/com/matthewhare/timeline/view/ui/ApplicationBar.mxml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ControllerBeans.mxml" tooltip="timeline_swiz/src/com/example/config/ControllerBeans.mxml">
+<persistable path="/timeline_swiz/src/com/example/config/ControllerBeans.mxml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ViewMaster.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/ViewMaster.mxml">
-<persistable path="/timeline/src/com/matthewhare/timeline/view/ViewMaster.mxml"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="timeline_swiz-app.xml" tooltip="timeline_swiz/src/timeline_swiz-app.xml">
+<persistable path="/timeline_swiz/src/timeline_swiz-app.xml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ITimelineVO.as" tooltip="timeline/src/com/matthewhare/timeline/model/vo/ITimelineVO.as">
-<persistable path="/timeline/src/com/matthewhare/timeline/model/vo/ITimelineVO.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineEvent.as" tooltip="timeline/src/com/matthewhare/timeline/controller/event/TimelineEvent.as">
+<persistable path="/timeline/src/com/matthewhare/timeline/controller/event/TimelineEvent.as"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineVO.as" tooltip="timeline/src/com/matthewhare/timeline/model/vo/TimelineVO.as">
-<persistable path="/timeline/src/com/matthewhare/timeline/model/vo/TimelineVO.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="ApplicationBar.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/application/ApplicationBar.mxml">
+<persistable path="/timeline/src/com/matthewhare/timeline/view/application/ApplicationBar.mxml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ITimelineItemVO.as" tooltip="timeline/src/com/matthewhare/timeline/model/vo/ITimelineItemVO.as">
-<persistable path="/timeline/src/com/matthewhare/timeline/model/vo/ITimelineItemVO.as"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineItemVO.as" tooltip="timeline/src/com/matthewhare/timeline/model/vo/TimelineItemVO.as">
-<persistable path="/timeline/src/com/matthewhare/timeline/model/vo/TimelineItemVO.as"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineProxy.as" tooltip="timeline/src/com/matthewhare/timeline/model/TimelineProxy.as">
-<persistable path="/timeline/src/com/matthewhare/timeline/model/TimelineProxy.as"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="FileProxy.as" tooltip="timeline/src/com/matthewhare/timeline/model/FileProxy.as">
-<persistable path="/timeline/src/com/matthewhare/timeline/model/FileProxy.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelinesController.as" tooltip="timeline/src/com/matthewhare/timeline/controller/TimelinesController.as">
+<persistable path="/timeline/src/com/matthewhare/timeline/controller/TimelinesController.as"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="timeline.mxml" tooltip="timeline/src/timeline.mxml">
 <persistable path="/timeline/src/timeline.mxml"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="ProxyMethod.as" tooltip="swiz/src/org/swizframework/aop/interceptor/ProxyMethod.as">
-<persistable path="/swiz/src/org/swizframework/aop/interceptor/ProxyMethod.as"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineVO.as" tooltip="timeline/src/com/matthewhare/timeline/model/vo/TimelineVO.as">
+<persistable path="/timeline/src/com/matthewhare/timeline/model/vo/TimelineVO.as"/>
 </file>
-<file factoryID="com.adobe.flexbuilder.editors.derived.ui.startpage.StartPageEditorInput" id="com.adobe.flexbuilder.ui.StartPage" name="Web Browser" tooltip="Flash Builder Start Page">
-<persistable iconpath="platform:/plugin/com.adobe.flexbuilder.ui/icons/fb_app_16.png" style="20" tooltip="Flash Builder Start Page" url="file:/Applications/Adobe Flash Builder 4.5/eclipse/plugins/com.adobe.flexbuilder.ui_4.5.1.313231/welcome/welcome.html?firstLaunch=false&amp;edition=prem&amp;version=451"/>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineProxy.as" tooltip="timeline/src/com/matthewhare/timeline/model/TimelineProxy.as">
+<persistable path="/timeline/src/com/matthewhare/timeline/model/TimelineProxy.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.mxml.MXMLEditor" name="Editor.mxml" tooltip="timeline/src/com/matthewhare/timeline/view/timeline/editor/Editor.mxml">
+<persistable path="/timeline/src/com/matthewhare/timeline/view/timeline/editor/Editor.mxml"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineLegend.as" tooltip="timeline/src/com/matthewhare/timeline/view/timeline/timelineclassic/componants/TimelineLegend.as">
+<persistable path="/timeline/src/com/matthewhare/timeline/view/timeline/timelineclassic/componants/TimelineLegend.as"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.adobe.flexbuilder.editors.actionscript.ActionScriptEditor" name="TimelineFileVO.as" tooltip="timeline/src/com/matthewhare/timeline/model/vo/TimelineFileVO.as">
+<persistable path="/timeline/src/com/matthewhare/timeline/model/vo/TimelineFileVO.as"/>
 </file>
 </mruList>
 </workbench>

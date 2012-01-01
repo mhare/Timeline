@@ -27,7 +27,7 @@ package com.matthewhare.timeline.model.vo
 		 */
 		public function get data():XML
 		{
-			
+			return null;
 		}
 	}
 }

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mx:ApplicationControlBar xmlns:fx="http://ns.adobe.com/mxml/2009" 
+						  xmlns:s="library://ns.adobe.com/flex/spark" 
+						  xmlns:mx="library://ns.adobe.com/flex/mx" width="100%">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<fx:Script>
+		<![CDATA[
+			import com.matthewhare.timeline.controller.events.TimelineEvent;
+			
+			import mx.controls.Alert;
+			import mx.events.MenuEvent;
+			
+			protected function menubarChangeHandler(event:MenuEvent):void
+			{
+				
+				this.dispatchEvent(new TimelineEvent(TimelineEvent.FILE_LOAD, null, null));
+			}
+			
+		]]>
+	</fx:Script>
+	
+	<fx:Declarations>
+		<fx:XMLList id="menuXML">
+			<fx:menuitem label="File">
+				<fx:menuitem label="New" data="New"/>
+				<fx:menuitem label="Open" data="Open"/>
+				<fx:menuitem label="Save" data="Save"/>
+				<fx:menuitem label="Exit" data="Exit"/>
+			</fx:menuitem>
+			<fx:menuitem label="Edit">
+				<fx:menuitem label="Cut" data="Cut"/>
+				<fx:menuitem label="Copy" data="Copy"/>
+				<fx:menuitem label="Paste" data="Paste"/>
+			</fx:menuitem>
+			<fx:menuitem label="View"/>
+		</fx:XMLList>
+		
+		<fx:Array id="cmbDP">
+			<fx:String>Item 1</fx:String>
+			<fx:String>Item 2</fx:String>
+			<fx:String>Item 3</fx:String>
+		</fx:Array>
+	</fx:Declarations>
+	
+	<mx:ApplicationControlBar id="dockedBar" 
+							  dock="true">
+		<mx:MenuBar height="100%" 
+					change="menubarChangeHandler(event)"
+					dataProvider="{menuXML}" 
+					labelField="@label"
+					showRoot="true"/>
+		<mx:HBox paddingBottom="5" 
+				 paddingTop="5">
+			<mx:ComboBox dataProvider="{cmbDP}"/>
+			<mx:Spacer width="100%"/>
+			<mx:TextInput id="myTI" text=""/>
+			<mx:Button id="srch1" 
+					   label="Search" 
+					   click="Alert.show('Searching')"/>
+		</mx:HBox>
+	</mx:ApplicationControlBar>
+	
+</mx:ApplicationControlBar>

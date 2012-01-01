@@ -1,0 +1,13 @@
+package com.matthewhare.timeline.controller.event
+{
+	public class TimelineMessageType
+	{
+		
+		public const FILE_LOAD:String = "fileLoad";
+		public const FILE_SAVE:String = "fileSave";
+		
+		public function TimelineMessageType()
+		{
+		}
+	}
+}

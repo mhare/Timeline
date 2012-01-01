@@ -1,0 +1,29 @@
+package com.matthewhare.timeline.controller.event
+{
+	import flash.events.Event;
+	
+	public class TimelineMessage extends Event
+	{
+		
+		private var _type:String;
+		private var _data:Object;
+		private var _name:String;
+		
+		public function TimelineMessage(type:String, data:Object, name:String)
+		{
+			super(type, bubbles, cancelable);
+		}
+
+		public function get name():String
+		{
+			return _name;
+		}
+
+		public function get data():Object
+		{
+			return _data;
+		}
+
+
+	}
+}

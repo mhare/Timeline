@@ -9,13 +9,14 @@
 	<fx:Script>
 		<![CDATA[
 			import com.matthewhare.timeline.model.vo.TimelineItemVO;
+			import com.matthewhare.timeline.model.vo.ITimelineItemVO;
 			
 			private var _timelineItemVOs:Vector.<TimelineItemVO>;
 			private var _timelineItems:Vector.<TimelineItemVO>;
 			private var _zoomLevel:int = 1; 
 
 			
-			private function isSpaceAvailable(vo:TimelineItemVO):Boolean
+			private function isSpaceAvailable(vo:ITimelineItemVO):Boolean
 			{
 				// if no item display on this channel
 				// between startDate and endDate
@@ -24,7 +25,7 @@
 				// return false
 			}
 
-			public function addItemVO(vo:TimelineItemVO):Boolean
+			public function addItemVO(vo:ITimelineItemVO):Boolean
 			{
 				// check to see if there is space on this channel, to 
 				// display this VO.

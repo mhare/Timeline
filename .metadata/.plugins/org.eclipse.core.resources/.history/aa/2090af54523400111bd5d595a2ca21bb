@@ -1,0 +1,6 @@
+<swiz:BeanProvider 
+	xmlns:fx="http://ns.adobe.com/mxml/2009" 
+	xmlns:swiz="http://swiz.swizframework.org" xmlns:model="com.matthewhare.timeline.model.*">
+
+	<model:FileSystemProxy id="fileSystemProxy"/>
+</swiz:BeanProvider>

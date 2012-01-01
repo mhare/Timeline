@@ -1,0 +1,28 @@
+package com.matthewhare.timeline.controller
+{
+	import com.matthewhare.timeline.controller.event.TimelineEvent;
+	import com.matthewhare.timeline.model.FileSystemProxy;
+	
+	import flash.events.IEventDispatcher;
+	import flash.filesystem.File;
+
+	public class FileSystemController
+	{
+		
+		[Dispatcher]
+		public var dispatcher:IEventDispatcher
+		
+		[Inject]
+		public var fileProxy:FileSystemProxy
+				
+		public function FileSystemController()
+		{
+		}
+		
+		[EventHandler( event="TimelineEvent.FILE_LOAD")]
+		public function fileLoad(event:TimelineEvent):void
+		{
+			
+		}
+	}
+}

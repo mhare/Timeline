@@ -1,0 +1,12 @@
+package com.matthewhare.timeline.controller.event
+{
+	public class TimelineMessageType
+	{
+		
+		
+		
+		public function TimelineMessageType()
+		{
+		}
+	}
+}

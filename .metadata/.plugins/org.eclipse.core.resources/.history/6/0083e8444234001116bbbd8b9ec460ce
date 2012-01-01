@@ -1,0 +1,16 @@
+package com.matthewhare.timeline.controller
+{
+	import flash.events.IEventDispatcher;
+
+	public class FileController
+	{
+		
+		[Dispatcher]
+		public var dispatcher:IEventDispatcher
+		
+		
+		public function FileController()
+		{
+		}
+	}
+}

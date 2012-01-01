@@ -1,10 +1,11 @@
 package com.matthewhare.timeline.model
 {
 	import com.matthewhare.timeline.model.vo.TimelineVO;
+	import com.matthewhare.timeline.model.vo.ITimelineVO;
 
 	public class TimelineProxy
 	{
-		static private var _currentTimelineVO:TimelineVO
+		static private var _currentTimelineVO:ITimelineVO
 		
 		public function TimelineProxy()
 		{
@@ -15,7 +16,7 @@ package com.matthewhare.timeline.model
 		 * @return 
 		 * 
 		 */
-		static public function get currentTimelineVO():TimelineVO
+		static public function get currentTimelineVO():ITimelineVO
 		{
 			return _currentTimelineVO;
 		}

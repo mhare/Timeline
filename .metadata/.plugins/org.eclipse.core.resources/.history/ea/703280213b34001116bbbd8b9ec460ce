@@ -1,0 +1,19 @@
+package com.matthewhare.timeline.model
+{
+	import com.matthewhare.timeline.model.vo.TimelineVO;
+
+	public class TimelineProxy
+	{
+		
+		
+		public function TimelineProxy()
+		{
+		}
+		
+		static public function get currentTimelineVO():TimelineVO
+		{
+			
+		}
+
+	}
+}

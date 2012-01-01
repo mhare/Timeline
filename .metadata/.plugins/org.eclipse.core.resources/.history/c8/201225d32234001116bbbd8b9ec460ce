@@ -1,0 +1,12 @@
+package com.matthewhare.timeline.view.timeline.timelineclassic.componants
+{
+	import spark.components.Group;
+	
+	public class TimelineLegend extends Group
+	{
+		public function TimelineLegend()
+		{
+			super();
+		}
+	}
+}

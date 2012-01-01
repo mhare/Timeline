@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<s:Group xmlns:fx="http://ns.adobe.com/mxml/2009" 
+		 xmlns:s="library://ns.adobe.com/flex/spark" 
+		 xmlns:mx="library://ns.adobe.com/flex/mx" width="100%" height="10">
+	<fx:Declarations>
+		<!-- Place non-visual elements (e.g., services, value objects) here -->
+	</fx:Declarations>
+	
+	<fx:Script>
+		<![CDATA[
+			import com.matthewhare.timeline.model.vo.TimelineItemVO;
+			
+			private var _vos:Vector.<TimelineItemVO>;
+			private var _zoomLevel:int = 1; 
+
+			
+			private function isSpaceAvailable(vo:TimelineItemVO):Boolean
+			{
+				// if no item display on this channel
+				// between startDate and endDate
+				// return true
+				// else
+				// return false
+			}
+
+			public function addTimelimeItemVO(vo:TimelineItemVO):Boolean
+			{
+				// check to see if there is space on this channel, to 
+				// display this VO.
+				// If spaceIsAvailable, 
+				// 	add VO; 
+				//  redraw;
+				// 	return true
+				// else; 
+				// 	return false
+			}
+			
+			private function redraw():void
+			{
+				// redraw
+				
+				// only redraw what needs to be seen. 
+			}
+
+			/**
+			 * Sets the number of pixels to a year:
+			 * <ul>
+			 * <li>A zoomLevel of 1, means 1 pixel is displayed for each year</li>
+			 * <li>A zoomLevel of 2, means 2 pixels are displayed for each year</li>
+			 * <li>A zoomLevel of 20, means 20 pixels are displayed for each year</li>
+			 * </ul>
+			 * */
+			public function set zoomLevel(i:int):void
+			{
+				_zoomLevel = i;
+				redraw();
+			}
+			
+			public function get zoomLevel():int
+			{
+				return _zoomLevel;
+			}
+		]]>
+	</fx:Script>
+</s:Group>

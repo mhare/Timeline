@@ -1,0 +1,67 @@
+package com.matthewhare.timeline.view.timeline.timelineclassic.componants
+{
+	import spark.components.Group;
+	
+	public class TimelineLegend extends Group
+	{
+		
+		private var _drawStartDate:Date
+		private var _drawEndDate:Date
+		private var _legendIncrements:Date
+		
+		public function TimelineLegend()
+		{
+			super();
+		}
+		
+		public function get legendIncrements():Date
+		{
+			return _legendIncrements;
+		}
+
+		public function set legendIncrements(value:Date):void
+		{
+			_legendIncrements = value;
+		}
+
+
+		/**
+		 * Which date to stop drawing the legend at
+		 * @param value
+		 * 
+		 */
+		public function set drawEndDate(value:Date):void
+		{
+			_drawEndDate = value;
+		}
+
+		public function get drawEndDate():Date
+		{
+			return _drawEndDate;
+		}
+		
+		/**
+		 * Which date to start drawing the legend from.
+		 * @param value
+		 * 
+		 */
+		public function set drawStartDate(value:Date):void
+		{
+			_drawStartDate = value;
+		}
+		
+		public function get drawStartDate():Date
+		{
+			return _drawStartDate;
+		}
+
+
+		/**
+		 * Draws the legend, with forks, and labels.
+		 * */
+		private function draw():void
+		{
+			
+		}
+	}
+}

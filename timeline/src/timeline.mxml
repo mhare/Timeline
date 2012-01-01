@@ -18,7 +18,7 @@
 			
 		]]>
 	</fx:Script>
-	<view:ViewMaster id="viewMaster">
+	<view:MainView id="viewMaster">
 		
-	</view:ViewMaster>
+	</view:MainView>
 </s:WindowedApplication>

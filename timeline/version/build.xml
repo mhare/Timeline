@@ -1,0 +1,33 @@
+<project name="timeline" default="build" basedir="." >
+
+	<!-- GENERAL SETTINGS -->
+	<property name="src.dir" value="${basedir}/../src/" />
+
+	<!-- Imports -->
+	<!-- NOTE: Place your imports after properties the imported Ant scripts rely on! -->
+	<target name="build">
+		    
+		<propertyfile file="${basedir}/build.number.properties" comment="My properties">
+			<entry  key="build.state" value="beta"/>
+			<entry  key="build.major" type="int" value="0"/>
+			<entry  key="build.minor" type="int" value="1"/>
+			<entry  key="build.number" type="int" default="0" operation="+"/>
+			<entry  key="build.number.total" type="int" default="0" operation="+"/>
+			<entry  key="build.date" type="date" value="now" pattern="MMM dd yy hh:mm aa"/>
+		</propertyfile>
+		
+		<delete file="${src.dir}/Version.as" quiet="true"/>
+		<copy file="${basedir}/Version.as.template" tofile="${src.dir}/Version.as" />
+		
+		<replace file="${src.dir}/Version.as" value="build.number.properties" propertyFile="build.number.properties">
+  			<replacefilter token="@build.number@" property="build.number"/>
+  			<replacefilter token="@build.number.total@" property="build.number.total"/>
+  			<replacefilter token="@build.date@" property="build.date"/>
+  			<replacefilter token="@build.major@" property="build.major"/>
+  			<replacefilter token="@build.minor@" property="build.minor"/>
+  			<replacefilter token="@build.state@" property="build.state"/>
+		</replace>
+	
+	</target>
+	
+</project>

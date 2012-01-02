@@ -1,0 +1,24 @@
+package {
+
+	public class Version {
+	
+		public static const DATE:String 		= "@build.date@";
+		public static const MAJOR:String 		= "@build.major@";
+		public static const MINOR:String 		= "@build.minor@";
+		public static const BUILD:String		= "@build.number@";
+		public static const BUILD_TOTAL:String 	= "@build.number.total@";
+		public static const BUILD_STATE:String 	= "@build.state@";
+		
+		
+		/**
+		* CONSTRUCTOR
+		*/
+		public function Version() {
+		}
+		
+		static public function toString():String
+		{
+			return MAJOR +'.'+ MINOR + '.' + BUILD + ' b' + BUILD_TOTAL + ' ' + BUILD_STATE;
+		}	
+	}
+}

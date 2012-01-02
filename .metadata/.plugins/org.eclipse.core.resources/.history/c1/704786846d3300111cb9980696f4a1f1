@@ -1,9 +1,0 @@
-package com.matthewhare.timeline.model
-{
-	public class FileProxy
-	{
-		public function FileProxy()
-		{
-		}
-	}
-}

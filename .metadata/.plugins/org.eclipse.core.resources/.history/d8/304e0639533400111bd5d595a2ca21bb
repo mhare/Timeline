@@ -1,8 +1,0 @@
-package com.matthewhare.timeline.model.vo
-{
-	public interface ITimelineVO
-	{
-		function startDate():Date
-		function endDate():Date
-	}
-}

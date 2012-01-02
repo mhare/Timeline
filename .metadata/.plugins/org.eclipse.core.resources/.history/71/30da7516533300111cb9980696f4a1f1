@@ -1,9 +1,0 @@
-package com.matthewhare.timeline.model.vo
-{
-	public class TimelineItemVO
-	{
-		public function TimelineItemVO()
-		{
-		}
-	}
-}

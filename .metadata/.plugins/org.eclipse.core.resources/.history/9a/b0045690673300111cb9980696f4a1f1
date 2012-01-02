@@ -1,7 +1,0 @@
-package com.matthewhare.timeline.model.vo
-{
-	public interface ITimelineVO
-	{
-		
-	}
-}

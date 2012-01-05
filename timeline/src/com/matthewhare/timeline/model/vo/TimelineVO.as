@@ -1,12 +1,18 @@
 package com.matthewhare.timeline.model.vo
 {
-	public class TimelineVO implements ITimelineVO, ITimelineVO
+	import flash.events.EventDispatcher;
+	import flash.filesystem.File;
+	import flash.filesystem.FileMode;
+	import flash.filesystem.FileStream;
+
+	public class TimelineVO extends EventDispatcher implements ITimelineVO
 	{
 		
 		private var _startDate:Date
 		private var _endDate:Date
 		private var _items:Vector.<TimelineItemVO>; // vector of timelineItems
 		
+		private var _file:File
 		
 		public function TimelineVO()
 		{
@@ -20,6 +26,7 @@ package com.matthewhare.timeline.model.vo
 		 * @param value
 		 * 
 		 */
+		[Bindable]
 		public function set timelineEndDate(value:Date):void
 		{
 			_endDate = value;
@@ -36,6 +43,7 @@ package com.matthewhare.timeline.model.vo
 		 * @param value
 		 * 
 		 */
+		[Bindable]
 		public function set timelineStartDate(value:Date):void
 		{
 			_startDate = value;
@@ -66,6 +74,45 @@ package com.matthewhare.timeline.model.vo
 		public function parseFileXML(xml:XML):void
 		{
 			
+		}
+		
+		
+		/**
+		 * Stores a reference to the file object for this timeline  
+		 * @return 
+		 * 
+		 */
+		[Bindable]
+		public function get file():File
+		{
+			// parse any new data, and add to file
+			return _file
+		}
+		
+		/**
+		 * Takes a file object, and populates the timelineVO from it. This includes parsing any data,
+		 * and creating and timelineItemVOs found in the file. 
+		 * @param file
+		 * @return 
+		 * 
+		 */
+		public function set file(file:File):void
+		{
+			// take file data, and populate timelineVO
+			_file = file;
+		}
+		
+		
+		public function parseFileStream(fileStream:FileStream):void
+		{
+			var fileDataString:String = fileStream.readUTFBytes(fileStream.bytesAvailable);
+			parseFileXML(new XML(fileDataString));
+		}
+		
+		
+		public function getFileDataAsXMLString():String
+		{
+			return "";
 		}
 
 	}

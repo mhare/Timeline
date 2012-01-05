@@ -1,5 +1,7 @@
 package com.matthewhare.timeline.model.vo
 {
+	import flash.filesystem.File;
+
 	public class TimelineItemVO implements ITimelineItemVO
 	{
 		
@@ -8,6 +10,8 @@ package com.matthewhare.timeline.model.vo
 		
 		private var _name:String
 		private var _description:String
+
+		private var _file:File
 		
 		public function TimelineItemVO()
 		{
@@ -52,6 +56,17 @@ package com.matthewhare.timeline.model.vo
 		{
 			_startDate = value;
 		}
+
+		public function get file():File
+		{
+			return _file;
+		}
+
+		public function set file(value:File):void
+		{
+			_file = value;
+		}
+
 
 	}
 }

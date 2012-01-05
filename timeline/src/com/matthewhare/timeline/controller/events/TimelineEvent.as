@@ -6,36 +6,6 @@ package com.matthewhare.timeline.controller.events
 	{
 		
 		
-		/**
-		 *	Load a file. 
-		 */
-		static public const FILE_LOAD				:String = "TimelineEvent.FILE_LOAD";
-		
-		/**
-		 *	Loaded a file.
-		 */
-		static public const FILE_LOADED			:String = "TimelineEvent.FILE_LOADED";
-		
-		/**
-		 *	Save a file. 
-		 */
-		static public const FILE_SAVE				:String = "TimelineEvent.FILE_SAVE";
-
-		/**
-		 *	Saved a file. 
-		 */
-		static public const FILE_SAVED				:String = "TimelineEvent.FILE_SAVED";
-
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		private var _type:String;
 		private var _data:Object;
 		private var _name:String;

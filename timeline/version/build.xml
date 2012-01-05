@@ -27,6 +27,18 @@
   			<replacefilter token="@build.minor@" property="build.minor"/>
   			<replacefilter token="@build.state@" property="build.state"/>
 		</replace>
+		
+		<delete file="${src.dir}/Main-app.xml" quiet="true"/>
+		<copy file="${src.dir}/Main-app.xml.template" tofile="${src.dir}/Main-app.xml" />
+			
+		<replace file="${src.dir}/Main-app.xml" value="build.number.properties" propertyFile="build.number.properties">
+  			<replacefilter token="@build.number@" property="build.number"/>
+  			<replacefilter token="@build.number.total@" property="build.number.total"/>
+  			<replacefilter token="@build.date@" property="build.date"/>
+  			<replacefilter token="@build.major@" property="build.major"/>
+  			<replacefilter token="@build.minor@" property="build.minor"/>
+  			<replacefilter token="@build.state@" property="build.state"/>
+		</replace>
 	
 	</target>
 	

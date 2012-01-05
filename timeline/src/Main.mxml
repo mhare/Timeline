@@ -5,8 +5,8 @@
 					   xmlns:view="com.matthewhare.timeline.view.*" 
 					   xmlns:swiz="http://swiz.swizframework.org" 
 					   xmlns:config="com.matthewhare.timeline.config.*"
-					   width="800"
-					   height="600"
+					   width="1024"
+					   height="768"
 					   creationComplete="initApplication(event)" 
 					   >
 	<fx:Declarations>
@@ -24,13 +24,9 @@
 				trace('hello world');
 			}
 			
-			protected function handleUnhandledFaults(event:Event):void
-			{
-				
-			}
 			
 		]]>
 	</fx:Script>
-	<view:MainView id="viewMaster"/>
+	<view:MainView id="mainView"/>
 		
 </s:WindowedApplication>

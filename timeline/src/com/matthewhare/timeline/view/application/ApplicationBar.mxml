@@ -11,6 +11,7 @@
 	
 	<fx:Script>
 		<![CDATA[
+			import com.matthewhare.timeline.controller.events.AppplicationEvent;
 			import com.matthewhare.timeline.controller.events.FileSystemEvent;
 			import com.matthewhare.timeline.controller.events.TimelineEvent;
 			
@@ -27,6 +28,9 @@
 						break;
 					case "Save":
 						this.dispatchEvent(new FileSystemEvent(FileSystemEvent.FILE_SAVE, null, null));
+						break;
+					case "Exit":
+						this.dispatchEvent(new AppplicationEvent(AppplicationEvent.QUIT));
 						break;
 				}
 			}

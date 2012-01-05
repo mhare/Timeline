@@ -5,4 +5,10 @@
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
+	<mx:Accordion top="5" left="5" right="5" bottom="5">
+		<s:NavigatorContent width="100%" height="100%" label="Event">
+		</s:NavigatorContent>
+		<s:NavigatorContent width="100%" height="100%" label="Person">
+		</s:NavigatorContent>
+	</mx:Accordion>
 </s:Group>

@@ -5,7 +5,7 @@ package com.matthewhare.timeline.model.vo
 	import flash.filesystem.FileMode;
 	import flash.filesystem.FileStream;
 
-	public class TimelineVO extends EventDispatcher implements ITimelineVO
+	public class TimelineVO implements ITimelineVO
 	{
 		
 		private var _startDate:Date
@@ -103,6 +103,9 @@ package com.matthewhare.timeline.model.vo
 		}
 		
 		
+		/**
+		 * Parses a fileStream, to native Timeline format, and populates this VO
+		 * */
 		public function parseFileStream(fileStream:FileStream):void
 		{
 			var fileDataString:String = fileStream.readUTFBytes(fileStream.bytesAvailable);
@@ -110,6 +113,9 @@ package com.matthewhare.timeline.model.vo
 		}
 		
 		
+		/**
+		 * Returns all VO data as XML.
+		 * */
 		public function getFileDataAsXMLString():String
 		{
 			return "";

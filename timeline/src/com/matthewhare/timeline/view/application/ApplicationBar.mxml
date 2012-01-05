@@ -3,6 +3,7 @@
 						  xmlns:s="library://ns.adobe.com/flex/spark" 
 						  xmlns:mx="library://ns.adobe.com/flex/mx" width="100%"
 						  dock="true"
+						  creationComplete="versionInit(event)"
 						  >
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
@@ -10,9 +11,11 @@
 	
 	<fx:Script>
 		<![CDATA[
+			import com.matthewhare.timeline.controller.events.FileSystemEvent;
 			import com.matthewhare.timeline.controller.events.TimelineEvent;
 			
 			import mx.controls.Alert;
+			import mx.events.FlexEvent;
 			import mx.events.MenuEvent;
 			
 			protected function menubarChangeHandler(event:MenuEvent):void
@@ -20,9 +23,17 @@
 				switch (event.label)
 				{
 					case "Open":
-						this.dispatchEvent(new TimelineEvent(TimelineEvent.FILE_LOAD, null, null));
+						this.dispatchEvent(new FileSystemEvent(FileSystemEvent.FILE_OPEN, null, null));
+						break;
+					case "Save":
+						this.dispatchEvent(new FileSystemEvent(FileSystemEvent.FILE_SAVE, null, null));
 						break;
 				}
+			}
+			
+			protected function versionInit(event:FlexEvent):void
+			{
+				menuXML..menuitem.(@label=="Version")[0].@label = "Version : [" + Version.toString() + "]";
 			}
 			
 		]]>
@@ -30,18 +41,21 @@
 	
 	<fx:Declarations>
 		<fx:XMLList id="menuXML">
-			<fx:menuitem label="File">
-				<fx:menuitem label="New" data="New"/>
-				<fx:menuitem label="Open" data="Open"/>
-				<fx:menuitem label="Save" data="Save"/>
-				<fx:menuitem label="Exit" data="Exit"/>
-			</fx:menuitem>
-			<fx:menuitem label="Edit">
-				<fx:menuitem label="Cut" data="Cut"/>
-				<fx:menuitem label="Copy" data="Copy"/>
-				<fx:menuitem label="Paste" data="Paste"/>
-			</fx:menuitem>
-		<!--	<fx:menuitem label="View"/> -->
+			<menuitem label="File">
+				<menuitem label="New" data="New"/>
+				<menuitem label="Open" data="Open"/>
+				<menuitem label="Save" data="Save"/>
+				<menuitem label="Exit" data="Exit"/>
+			</menuitem>
+			<menuitem label="Edit">
+				<menuitem label="Cut" data="Cut"/>
+				<menuitem label="Copy" data="Copy"/>
+				<menuitem label="Paste" data="Paste"/>
+			</menuitem>
+			<menuitem label="Help">
+				<menuitem label="Version" data="Version"/>
+			</menuitem>
+		<!--	<menuitem label="View"/> -->
 		</fx:XMLList>
 	</fx:Declarations>
 	

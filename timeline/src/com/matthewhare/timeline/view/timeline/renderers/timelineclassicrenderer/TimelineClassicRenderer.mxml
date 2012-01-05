@@ -41,4 +41,6 @@
 			
 		]]>
 	</fx:Script>
+	<s:Label text="TimelineClassicRenderer"/>
+	
 </s:VGroup>

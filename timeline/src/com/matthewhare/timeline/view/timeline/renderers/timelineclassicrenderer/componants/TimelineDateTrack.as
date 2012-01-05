@@ -2,14 +2,14 @@ package com.matthewhare.timeline.view.timeline.renderers.timelineclassicrenderer
 {
 	import spark.components.Group;
 	
-	public class TimelineLegend extends Group
+	public class TimelineDateTrack extends Group
 	{
 		
 		private var _drawStartDate:Date
 		private var _drawEndDate:Date
 		private var _dateIncrements:Date
 		
-		public function TimelineLegend()
+		public function TimelineDateTrack()
 		{
 			super();
 		}

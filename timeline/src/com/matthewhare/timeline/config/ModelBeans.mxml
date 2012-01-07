@@ -8,5 +8,6 @@
 	<vo:TimelineVO id="timelineVO" />
 	
 	<presentation:TimelinePM id="timelinePM" timelineVO="{timelineVO}"/>
+	<presentation:TimelineEditorPM id="timelineEditorPM" timelineVO="{timelineVO}"/>
 	
 </swiz:BeanProvider>

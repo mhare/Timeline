@@ -1,13 +1,20 @@
 package com.matthewhare.timeline.view.timeline.componants
 {
+	import com.matthewhare.timeline.model.vo.TimelineVO;
+	
 	import spark.components.Group;
 	
 	public class TimelineDateTrack extends Group
 	{
 		
-		private var _drawStartDate:Date
-		private var _drawEndDate:Date
+		private var _dateStart:Date
+		private var _dateEnd:Date
+		private var _dateFocus:Date
 		private var _dateIncrements:Date
+		
+		private var _zoomLevel:int
+		
+		private var _timelineVO:TimelineVO
 		
 		public function TimelineDateTrack()
 		{
@@ -35,14 +42,14 @@ package com.matthewhare.timeline.view.timeline.componants
 		 * @param value
 		 * 
 		 */
-		public function set drawEndDate(value:Date):void
+		public function set dateEnd(value:Date):void
 		{
-			_drawEndDate = value;
+			_dateEnd = value;
 		}
 
-		public function get drawEndDate():Date
+		public function get dateEnd():Date
 		{
-			return _drawEndDate;
+			return _dateEnd;
 		}
 		
 		
@@ -51,14 +58,14 @@ package com.matthewhare.timeline.view.timeline.componants
 		 * @param value
 		 * 
 		 */
-		public function set drawStartDate(value:Date):void
+		public function set dateStart(value:Date):void
 		{
-			_drawStartDate = value;
+			_dateStart = value;
 		}
 		
-		public function get drawStartDate():Date
+		public function get dateStart():Date
 		{
-			return _drawStartDate;
+			return _dateStart;
 		}
 
 
@@ -69,5 +76,40 @@ package com.matthewhare.timeline.view.timeline.componants
 		{
 			
 		}
+
+		/**
+		 * A reference to the timelineVO this dateline is renderer from
+		 * */
+		public function get timelineVO():TimelineVO
+		{
+			return _timelineVO;
+		}
+
+		public function set timelineVO(value:TimelineVO):void
+		{
+			_timelineVO = value;
+		}
+
+		public function get zoomLevel():int
+		{
+			return _zoomLevel;
+		}
+
+		public function set zoomLevel(value:int):void
+		{
+			_zoomLevel = value;
+		}
+
+		public function get dateFocus():Date
+		{
+			return _dateFocus;
+		}
+
+		public function set dateFocus(value:Date):void
+		{
+			_dateFocus = value;
+		}
+
+
 	}
 }

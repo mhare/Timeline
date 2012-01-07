@@ -4,6 +4,8 @@ package com.matthewhare.timeline.model.vo
 	import flash.filesystem.File;
 	import flash.filesystem.FileMode;
 	import flash.filesystem.FileStream;
+	
+	import mx.collections.ArrayCollection;
 
 	public class TimelineVO implements ITimelineVO
 	{
@@ -11,12 +13,13 @@ package com.matthewhare.timeline.model.vo
 		private var _description:String			=	"No Description Set";
 		private var _startDate:Date
 		private var _endDate:Date
-		private var _items:Vector.<TimelineItemVO>; // vector of timelineItems
+		private var _items:ArrayCollection; // vector of timelineItems
 		
 		private var _file:File
 		
 		public function TimelineVO()
 		{
+			_items = new ArrayCollection();
 		}
 		
 		
@@ -28,12 +31,12 @@ package com.matthewhare.timeline.model.vo
 		 * 
 		 */
 		[Bindable]
-		public function set timelineEndDate(value:Date):void
+		public function set dateEnd(value:Date):void
 		{
 			_endDate = value;
 		}
 		
-		public function get timelineEndDate():Date
+		public function get dateEnd():Date
 		{
 			return _endDate;
 		}
@@ -45,12 +48,12 @@ package com.matthewhare.timeline.model.vo
 		 * 
 		 */
 		[Bindable]
-		public function set timelineStartDate(value:Date):void
+		public function set dateStart(value:Date):void
 		{
 			_startDate = value;
 		}
 		
-		public function get timelineStartDate():Date
+		public function get dateStart():Date
 		{
 			return _startDate;
 		}
@@ -59,12 +62,12 @@ package com.matthewhare.timeline.model.vo
 		 * A Vector array of TimelineItemVO's that appear in the timeline
 		 */
 		[Bindable]
-		public function get timelineItems():Vector.<TimelineItemVO>
+		public function get items():ArrayCollection
 		{
 			return _items;
 		}
 
-		public function set timelineItems(value:Vector.<TimelineItemVO>):void
+		public function set items(value:ArrayCollection):void
 		{
 			_items = value;
 		}

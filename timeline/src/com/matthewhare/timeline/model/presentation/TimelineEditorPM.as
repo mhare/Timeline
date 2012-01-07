@@ -2,37 +2,39 @@ package com.matthewhare.timeline.model.presentation
 {
 	import com.matthewhare.timeline.model.vo.TimelineItemVO;
 	import com.matthewhare.timeline.model.vo.TimelineVO;
+	
+	import flash.events.Event;
+	import flash.events.EventDispatcher;
 
-	public class TimelineEditorPM
+	/**
+	 * Presentation Model the Editor 
+	 * @author matthewhare
+	 * 
+	 */
+	public class TimelineEditorPM extends EventDispatcher
 	{
 		
 		[Inject]
-		private var _timelineVO:TimelineVO
+		[Bindable]
+		public var timelineVO:TimelineVO
 		
 		public function TimelineEditorPM()
 		{
 		}
-
-		[Bindable]
-		public function get timelineVO():TimelineVO
-		{
-			return _timelineVO;
-		}
-
-		public function set timelineVO(value:TimelineVO):void
-		{
-			_timelineVO = value;
-		}
-
 		
+		/**
+		 *Creates a new TimelineItemVO, stores it on the timelineVO, then
+		 * returns the reference. 
+		 * 
+		 */
 		public function createEmptyItem():TimelineItemVO
 		{
 			var itemVO:TimelineItemVO = new TimelineItemVO();
 				itemVO.name = 'New Name';
 				itemVO.description = 'New Description';
 			
-			_timelineVO.timelineItems.push(itemVO);
-			
+				timelineVO.items.addItem(itemVO);;
+				
 			return itemVO;
 		}
 	}

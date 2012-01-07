@@ -1,18 +1,20 @@
 package com.matthewhare.timeline.model.vo
 {
+	import mx.collections.ArrayCollection;
+
 	public interface ITimelineVO
 	{
 		
-		function set timelineEndDate(value:Date):void;
+		function set dateEnd(value:Date):void;
 
-		function get timelineEndDate():Date;
+		function get dateEnd():Date;
 
-		function set timelineStartDate(value:Date):void;
+		function set dateStart(value:Date):void;
 
-		function get timelineStartDate():Date;
+		function get dateStart():Date;
 
-		function get timelineItems():Vector.<TimelineItemVO>;
+		function get items():ArrayCollection;
 
-		function set timelineItems(value:Vector.<TimelineItemVO>):void;
+		function set items(value:ArrayCollection):void;
 	}
 }

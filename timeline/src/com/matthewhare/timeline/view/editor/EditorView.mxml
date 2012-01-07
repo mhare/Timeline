@@ -5,8 +5,18 @@
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
+	<fx:Script>
+		<![CDATA[
+			import com.matthewhare.timeline.model.presentation.TimelineEditorPM;
+			
+			[Inject]
+			[Bindable]
+			public var editorPM:TimelineEditorPM
+		]]>
+	</fx:Script>
 	<mx:Accordion top="5" left="5" right="5" bottom="5">
 		<s:NavigatorContent width="100%" height="100%" label="Event">
+			<s:Button label="New Item" click="editorPM.createEmptyItem()" />
 		</s:NavigatorContent>
 		<s:NavigatorContent width="100%" height="100%" label="Person">
 		</s:NavigatorContent>

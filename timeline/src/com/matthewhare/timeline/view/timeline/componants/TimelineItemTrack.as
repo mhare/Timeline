@@ -1,4 +1,4 @@
-package com.matthewhare.timeline.view.timeline.renderers.timelineclassicrenderer.componants
+package com.matthewhare.timeline.view.timeline.componants
 {
 	import com.matthewhare.timeline.model.vo.ITimelineItemVO;
 	import com.matthewhare.timeline.model.vo.TimelineItemVO;
@@ -24,6 +24,7 @@ package com.matthewhare.timeline.view.timeline.renderers.timelineclassicrenderer
 			// return true
 			// else
 			// return false
+			return true;
 		}
 		
 		public function addItemVO(vo:ITimelineItemVO):Boolean
@@ -36,6 +37,8 @@ package com.matthewhare.timeline.view.timeline.renderers.timelineclassicrenderer
 			// 	return true
 			// else; 
 			// 	return false
+			
+			return true;
 		}
 		
 		/**

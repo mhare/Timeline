@@ -1,6 +1,6 @@
 package com.matthewhare.timeline.controller
 {
-	import com.matthewhare.timeline.controller.events.AppplicationEvent;
+	import com.matthewhare.timeline.events.AppplicationEvent;
 	
 	import flash.events.KeyboardEvent;
 	import flash.events.MouseEvent;
@@ -11,9 +11,9 @@ package com.matthewhare.timeline.controller
 	{
 		public function ApplicationController()
 		{
-			FlexGlobals.topLevelApplication.addEventListener(KeyboardEvent.KEY_UP, onKeyEvent);
-			FlexGlobals.topLevelApplication.addEventListener(KeyboardEvent.KEY_DOWN, onKeyEvent);
-			FlexGlobals.topLevelApplication.addEventListener(MouseEvent.MOUSE_WHEEL, onMouseWheel);
+//			FlexGlobals.topLevelApplication.addEventListener(KeyboardEvent.KEY_UP, onKeyEvent);
+//			FlexGlobals.topLevelApplication.addEventListener(KeyboardEvent.KEY_DOWN, onKeyEvent);
+//			FlexGlobals.topLevelApplication.addEventListener(MouseEvent.MOUSE_WHEEL, onMouseWheel);
 		}
 		
 		protected function onKeyEvent(event:KeyboardEvent):void

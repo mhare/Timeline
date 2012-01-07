@@ -9,8 +9,8 @@
 		<!-- The eventPackages value tells Swiz the path to your Event classes,
 		and viewPackages is an optional value that speeds up the processing of display classes. -->
 		<swiz:SwizConfig 
-			eventPackages="com.matthewhare.timeline.controller.events.*" 
-			viewPackages="com.matthewhare.timeline.views.*" />
+			eventPackages="com.matthewhare.timeline.events.*" 
+			viewPackages="com.matthewhare.timeline.view.*" />
 	</swiz:config>
 	
 	<!-- BeanProviders simply contain the non-display objects that Swiz should process. -->

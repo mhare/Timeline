@@ -1,4 +1,4 @@
-package com.matthewhare.timeline.controller.events
+package com.matthewhare.timeline.events
 {
 	import flash.events.Event;
 	

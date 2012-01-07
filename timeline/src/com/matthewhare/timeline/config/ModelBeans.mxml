@@ -1,7 +1,12 @@
 <swiz:BeanProvider 
 	xmlns:fx="http://ns.adobe.com/mxml/2009" 
-	xmlns:swiz="http://swiz.swizframework.org" xmlns:model="com.matthewhare.timeline.model.*">
+	xmlns:swiz="http://swiz.swizframework.org" xmlns:model="com.matthewhare.timeline.model.*" xmlns:proxies="com.matthewhare.timeline.model.proxies.*" xmlns:presentation="com.matthewhare.timeline.model.presentation.*" xmlns:vo="com.matthewhare.timeline.model.vo.*">
 
-	<model:FileSystemProxy id="fileSystemProxy"/>
-	<model:TimelineProxy id="timelineProxy"/>
+	<proxies:FileSystemProxy id="fileSystemProxy"/>
+	<proxies:TimelineProxy id="timelineProxy"/>
+	
+	<vo:TimelineVO id="timelineVO" />
+	
+	<presentation:TimelinePM id="timelinePM" timelineVO="{timelineVO}"/>
+	
 </swiz:BeanProvider>

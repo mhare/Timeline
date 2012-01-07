@@ -7,7 +7,7 @@
 	<!-- NOTE: Place your imports after properties the imported Ant scripts rely on! -->
 	<target name="build">
 		    
-		<propertyfile file="${basedir}/build.number.properties" comment="My properties">
+		<propertyfile file="${basedir}/version.properties" comment="My properties">
 			<entry  key="build.state" value="beta"/>
 			<entry  key="build.major" type="int" value="0"/>
 			<entry  key="build.minor" type="int" value="1"/>
@@ -19,7 +19,7 @@
 		<delete file="${src.dir}/Version.as" quiet="true"/>
 		<copy file="${basedir}/Version.as.template" tofile="${src.dir}/Version.as" />
 		
-		<replace file="${src.dir}/Version.as" value="build.number.properties" propertyFile="build.number.properties">
+		<replace file="${src.dir}/Version.as" value="version.properties" propertyFile="version.properties">
   			<replacefilter token="@build.number@" property="build.number"/>
   			<replacefilter token="@build.number.total@" property="build.number.total"/>
   			<replacefilter token="@build.date@" property="build.date"/>
@@ -31,7 +31,7 @@
 		<delete file="${src.dir}/Main-app.xml" quiet="true"/>
 		<copy file="${src.dir}/Main-app.xml.template" tofile="${src.dir}/Main-app.xml" />
 			
-		<replace file="${src.dir}/Main-app.xml" value="build.number.properties" propertyFile="build.number.properties">
+		<replace file="${src.dir}/Main-app.xml" value="version.properties" propertyFile="version.properties">
   			<replacefilter token="@build.number@" property="build.number"/>
   			<replacefilter token="@build.number.total@" property="build.number.total"/>
   			<replacefilter token="@build.date@" property="build.date"/>

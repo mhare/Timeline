@@ -3,34 +3,32 @@
 		 xmlns:s="library://ns.adobe.com/flex/spark" 
 		 xmlns:mx="library://ns.adobe.com/flex/mx" 
 		 width="100%" height="100%" 
-		 currentState="editable"
-		 xmlns:timelineclassicrenderer="com.matthewhare.timeline.view.timeline.renderers.timelineclassicrenderer.*" 
-		 xmlns:editor="com.matthewhare.timeline.view.timeline.editor.*">
+		 >
 	<fx:Declarations>
 		<!-- Place non-visual elements (e.g., services, value objects) here -->
 	</fx:Declarations>
 	<fx:Script>
 		<![CDATA[
-			import com.matthewhare.timeline.model.vo.TimelineVO;
-			private var _timelineVO:TimelineVO;
+			import com.matthewhare.timeline.model.presentation.TimelinePM;
 			
+			import mx.events.FlexEvent;
+			
+			[Inject]
 			[Bindable]
-			public function set timelineVO(timelineVO:TimelineVO):void
-			{
-				this._timelineVO = timelineVO;
-			}
+			public var timelinePM:TimelinePM
 
-			public function get timelineVO():TimelineVO
+			[PostConstruct]
+			public function testInjection():void
 			{
-				return _timelineVO;
+				trace('TimelineView ['+timelinePM.timelineVO.title+']');
 			}
-
+						
 		]]>
 	</fx:Script>
-	<s:states>
-		<s:State name="editable"/>
-		<s:State name="display"/>
-	</s:states>
-	<timelineclassicrenderer:TimelineClassicRenderer timelineVO="{this.timelineVO}"/>
-	<editor:Editor includeIn="editable"/>
+	<s:VGroup>
+		<s:Label text="TimelineView" />
+		<s:Label text="title : {timelinePM.timelineVO.title}"/>
+		<s:Label text="description : {timelinePM.timelineVO.description}"/>
+		<s:Label text="TimelineView" />
+	</s:VGroup>
 </s:Group>

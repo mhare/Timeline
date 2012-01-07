@@ -1,4 +1,4 @@
-package com.matthewhare.timeline.view.timeline.renderers.timelineclassicrenderer.componants
+package com.matthewhare.timeline.view.timeline.componants
 {
 	import com.matthewhare.timeline.model.vo.TimelineItemVO;
 	import com.matthewhare.timeline.model.vo.ITimelineItemVO;

@@ -1,4 +1,4 @@
-package com.matthewhare.timeline.model
+package com.matthewhare.timeline.model.proxies
 {
 	import com.matthewhare.timeline.model.vo.TimelineVO;
 	import com.matthewhare.timeline.model.vo.ITimelineVO;

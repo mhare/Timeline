@@ -1,4 +1,4 @@
-package com.matthewhare.timeline.view.timeline.renderers.timelineclassicrenderer.componants
+package com.matthewhare.timeline.view.timeline.componants
 {
 	import spark.components.Group;
 	

@@ -7,7 +7,8 @@ package com.matthewhare.timeline.model.vo
 
 	public class TimelineVO implements ITimelineVO
 	{
-		
+		private var _title:String				= 	"No Title Set";
+		private var _description:String			=	"No Description Set";
 		private var _startDate:Date
 		private var _endDate:Date
 		private var _items:Vector.<TimelineItemVO>; // vector of timelineItems
@@ -119,6 +120,34 @@ package com.matthewhare.timeline.model.vo
 		public function getFileDataAsXMLString():String
 		{
 			return "";
+		}
+
+		/**
+		 * The short text title for this timeline
+		 * */
+		[Bindable]
+		public function get title():String
+		{
+			return _title;
+		}
+
+		public function set title(value:String):void
+		{
+			_title = value;
+		}
+
+		/**
+		 * The longtext description of this timeline
+		 * */
+		[Bindable]
+		public function get description():String
+		{
+			return _description;
+		}
+
+		public function set description(value:String):void
+		{
+			_description = value;
 		}
 
 	}

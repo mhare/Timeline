@@ -1,8 +1,8 @@
 package com.matthewhare.timeline.controller
 {
-	import com.matthewhare.timeline.controller.events.ActivityEvent;
-	import com.matthewhare.timeline.controller.events.FileSystemEvent;
-	import com.matthewhare.timeline.model.FileSystemProxy;
+	import com.matthewhare.timeline.events.ActivityEvent;
+	import com.matthewhare.timeline.events.FileSystemEvent;
+	import com.matthewhare.timeline.model.proxies.FileSystemProxy;
 	import com.matthewhare.timeline.model.vo.TimelineVO;
 	
 	import flash.events.Event;

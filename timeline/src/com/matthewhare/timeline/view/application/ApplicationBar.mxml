@@ -11,9 +11,9 @@
 	
 	<fx:Script>
 		<![CDATA[
-			import com.matthewhare.timeline.controller.events.AppplicationEvent;
-			import com.matthewhare.timeline.controller.events.FileSystemEvent;
-			import com.matthewhare.timeline.controller.events.TimelineEvent;
+			import com.matthewhare.timeline.events.AppplicationEvent;
+			import com.matthewhare.timeline.events.FileSystemEvent;
+			import com.matthewhare.timeline.events.TimelineEvent;
 			
 			import mx.controls.Alert;
 			import mx.events.FlexEvent;
